@@ -3818,7 +3818,7 @@
       "category": "grocery",
       "subCategory": "beverages",
       "name": "Apple Juice 1L",
-      "image": "https://cdn.zeptonow.com/production/ik-seo/tr:w-1200,ar-1200-1200,pr-true,f-auto,q-80/cms/product_variant/616431d6-d577-4e8f-90f0-fb1a2d1bedc8/Appy-Fizz-PET-Bottle.jpeg",
+      "image": "https://www.bbassets.com/media/uploads/p/l/265692-2_8-appy-fizz-apple-juice-based-drink.jpg",
       "prices": [
         {
           "platform": "Zepto",
@@ -3833,14 +3833,14 @@
           "url": "https://blinkit.com/prn/appy-fizz-sparkling-drink-apple-flavoured/prid/18313"
         },
         {
-          "platform": "StarQuik",
+          "platform": "BigBasket",
           "price": 63,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
-          "url": "https://www.StarQuik.com/pd/1209359/appy-juice-sparkling-apple-2x1-l-bottle/?nc=cl-prod-list&t_pos_sec=1&t_pos_item=1&t_s=Juice+-+Sparkling+Apple"
+          "url": "https://www.bigbasket.com/pd/265692/appy-fizz-apple-juice-based-drink-1-l-bottle/"
         },
         {
           "platform": "JioMart",
-          "price": 36,
+          "price": 65,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Jiomart.com/Seller-Logo.png",
           "url": "https://www.jiomart.com/p/groceries/appy-fizz-1-l/490000946"
         }

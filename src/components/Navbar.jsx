@@ -29,21 +29,12 @@ const Navbar = () => {
   const wishlist = useSelector((state) => state.wishlist);
 
   const subCategories = [
-    "Mobiles",
-    "Headphones",
-    "Laptops",
-    "Watches",
-    "Vegetables",
-    "Fruits",
-    "Dairy",
-    "Dry Fruits",
-    "Snacks",
-    "Beverages",
+    "Mobiles", "Headphones", "Laptops", "Watches",
+    "Vegetables", "Fruits", "Dairy", "Dry Fruits",
+    "Snacks", "Beverages",
   ];
 
-  const apiEndpoints = subCategories.map(
-    (cat) => `http://localhost:5000/${cat.toLowerCase()}`
-  );
+  const apiEndpoints = subCategories.map(cat => `http://localhost:5000/${cat.toLowerCase()}`);
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
@@ -107,53 +98,23 @@ const Navbar = () => {
       <nav className="bg-white shadow-md fixed top-0 left-0 w-full z-50 border-b border-gray-200">
         <div className="max-w-screen-xl mx-auto flex items-center justify-between px-4 py-3 md:py-4">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <Link to="/">
-              <img src={Logo} alt="Xprice" className="w-28 h-auto" />
-            </Link>
-          </div>
+          <Link to="/">
+            <img src={Logo} alt="Xprice" className="w-28 h-auto" />
+          </Link>
 
-          {/* Categories (desktop only) */}
-          <div className="hidden md:block relative group">
-            <button className="flex items-center gap-2 text-sm font-medium text-gray-700 bg-gray-100 px-4 py-2 rounded-md border border-gray-300 shadow-sm hover:bg-blue-50 transition-all duration-200">
-              Categories
-              <svg
-                className="w-5 h-4 text-gray-500"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-              </svg>
-            </button>
-            <div className="absolute left-0 top-full mt-2 w-52 bg-white border rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 z-40">
-              {subCategories.map((subCat, index) => (
-                <div
-                  key={index}
-                  className="px-4 py-2 hover:bg-blue-50 text-sm capitalize cursor-pointer"
-                  onClick={() => navigate(`/category/${subCat.toLowerCase()}`)}
-                >
-                  {subCat}
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Search Bar (desktop) */}
-          <div className="hidden md:block flex-1 px-6 relative max-w-xl w-full">
-            <div className="relative">
-              <input
-                type="text"
-                placeholder="Search for products..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full pl-4 pr-10 py-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
-              />
-              <FaSearch
-                className="absolute top-1/2 right-3 -translate-y-1/2 text-gray-500 cursor-pointer"
-                onClick={handleSearch}
-              />
-            </div>
+          {/* Search (Center in mobile) */}
+          <div className="flex-1 mx-4 hidden md:block relative max-w-xl">
+            <input
+              type="text"
+              placeholder="Search for products..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full pl-4 pr-10 py-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+            <FaSearch
+              className="absolute top-1/2 right-3 -translate-y-1/2 text-gray-500 cursor-pointer"
+              onClick={handleSearch}
+            />
             {searchQuery && filteredSuggestions.length > 0 && (
               <ul className="absolute left-0 w-full bg-white border mt-1 max-h-48 overflow-y-auto rounded-md shadow-lg z-10">
                 {filteredSuggestions.slice(0, 5).map((product) => (
@@ -172,24 +133,42 @@ const Navbar = () => {
             )}
           </div>
 
-          {/* Mobile Menu Button */}
-          <button
-            className="md:hidden text-gray-700 ml-auto"
-            onClick={() => setMenuOpen(true)}
-          >
+          {/* Menu Button (Mobile) */}
+          <button className="md:hidden text-gray-700" onClick={() => setMenuOpen(true)}>
             <FaBars size={22} />
           </button>
 
-          {/* Wishlist & Auth (Desktop Only) */}
-          <div className="hidden md:flex items-center gap-4" ref={dropdownRef}>
-            {/* Wishlist Icon */}
+          {/* Desktop Right Section */}
+          <div className="hidden md:flex items-center gap-5" ref={dropdownRef}>
+            {/* Categories */}
+            <div className="relative group">
+              <button className="flex items-center gap-2 text-sm font-medium text-gray-700 bg-gray-100 px-4 py-2 rounded-md border border-gray-300 shadow-sm hover:bg-blue-50 transition">
+                Categories
+                <svg className="w-5 h-4 text-gray-500" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div className="absolute left-0 top-full mt-2 w-52 bg-white border rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all z-40">
+                {subCategories.map((cat, i) => (
+                  <div
+                    key={i}
+                    className="px-4 py-2 text-sm hover:bg-blue-50 capitalize cursor-pointer"
+                    onClick={() => navigate(`/category/${cat.toLowerCase()}`)}
+                  >
+                    {cat}
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Wishlist */}
             <div className="relative">
               <FaHeart
                 size={22}
                 className={`${user ? "text-red-500" : "text-gray-300"} cursor-pointer`}
                 onClick={() => {
                   if (!user) return toast.error("Please login to view wishlist");
-                  setWishlistOpen((prev) => !prev);
+                  setWishlistOpen(!wishlistOpen);
                 }}
               />
               {user && wishlist.length > 0 && (
@@ -197,62 +176,91 @@ const Navbar = () => {
                   {wishlist.length}
                 </span>
               )}
+              <AnimatePresence>
+                {user && wishlistOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, scale: 0.95 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    exit={{ opacity: 0, scale: 0.95 }}
+                    transition={{ duration: 0.2 }}
+                    className="absolute right-0 top-10 w-80 bg-white rounded-md shadow-lg border z-50"
+                  >
+                    <div className="p-4 border-b font-semibold flex justify-between">
+                      Wishlist ({wishlist.length})
+                      <Link
+                        to="/wishlist"
+                        onClick={() => setWishlistOpen(false)}
+                        className="text-sm text-blue-500 hover:underline"
+                      >
+                        View All
+                      </Link>
+                    </div>
+                    {wishlist.length === 0 ? (
+                      <p className="p-4 text-sm text-gray-500">No products in wishlist.</p>
+                    ) : (
+                      <ul className="divide-y max-h-96 overflow-y-auto">
+                        {wishlist.map((item) => (
+                          <li
+                            key={item.id}
+                            className="p-3 hover:bg-gray-50 flex items-center gap-3 cursor-pointer"
+                            onClick={() => {
+                              setWishlistOpen(false);
+                              navigate(`/product/${item.subCategory.toLowerCase()}/${item.id}`);
+                            }}
+                          >
+                            <img src={item.image} alt={item.name} className="w-12 h-12 object-contain rounded border" />
+                            <div>
+                              <p className="text-sm font-medium">{item.name}</p>
+                              <p className="text-xs text-green-600 font-semibold">
+                                ₹{Math.min(...item.prices.map(p => p.price))}
+                              </p>
+                            </div>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </div>
 
-            {/* Wishlist Dropdown */}
-            <AnimatePresence>
-              {user && wishlistOpen && (
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  exit={{ opacity: 0, scale: 0.95 }}
-                  transition={{ duration: 0.2 }}
-                  className="absolute right-0 top-10 w-80 bg-white rounded-md shadow-lg border z-50"
-                >
-                  <div className="p-4 border-b font-semibold text-gray-800 flex justify-between">
-                    Wishlist ({wishlist.length})
-                    <Link
-                      to="/wishlist"
-                      onClick={() => setWishlistOpen(false)}
-                      className="text-sm text-blue-500 hover:underline"
+            {/* User Dropdown */}
+            {user ? (
+              <div className="relative">
+                <FaUserCircle
+                  size={26}
+                  className="text-gray-700 cursor-pointer"
+                  onClick={() => setDropdownOpen(!dropdownOpen)}
+                />
+                <AnimatePresence>
+                  {dropdownOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, y: -10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -10 }}
+                      className="absolute right-0 mt-2 w-64 bg-white rounded-md shadow-lg border z-50"
                     >
-                      View All
-                    </Link>
-                  </div>
-                  {wishlist.length === 0 ? (
-                    <p className="p-4 text-sm text-gray-500">No products in wishlist.</p>
-                  ) : (
-                    <ul className="divide-y max-h-96 overflow-y-auto">
-                      {wishlist.map((item) => (
-                        <li
-                          key={item.id}
-                          className="p-3 hover:bg-gray-50 cursor-pointer flex items-center gap-3"
-                          onClick={() => {
-                            setWishlistOpen(false);
-                            navigate(`/product/${item.subCategory.toLowerCase()}/${item.id}`);
-                          }}
-                        >
-                          <img
-                            src={item.image}
-                            alt={item.name}
-                            className="w-12 h-12 object-contain rounded border"
-                          />
+                      <div className="p-4 border-b">
+                        <div className="flex items-center gap-3">
+                          <FaUserCircle size={30} className="text-gray-500" />
                           <div>
-                            <p className="text-sm font-medium">{item.name}</p>
-                            <p className="text-xs text-green-600 font-semibold">
-                              ₹{Math.min(...item.prices.map((p) => p.price))}
-                            </p>
+                            <p className="text-sm font-semibold text-gray-800">{getUsername()}</p>
+                            <p className="text-xs text-gray-500">{user.email}</p>
                           </div>
-                        </li>
-                      ))}
-                    </ul>
+                        </div>
+                      </div>
+                      <button
+                        onClick={handleLogout}
+                        className="w-full text-left px-4 py-3 text-sm text-red-600 hover:bg-gray-50 flex items-center gap-2"
+                      >
+                        <FaSignOutAlt />
+                        Logout
+                      </button>
+                    </motion.div>
                   )}
-                </motion.div>
-              )}
-            </AnimatePresence>
-
-            {/* Auth Section */}
-            {!user ? (
+                </AnimatePresence>
+              </div>
+            ) : (
               <>
                 <Link to="/login" className="text-sm px-3 py-1 border rounded-md hover:bg-gray-100">
                   Login
@@ -261,40 +269,12 @@ const Navbar = () => {
                   Sign Up
                 </Link>
               </>
-            ) : (
-              <FaUserCircle
-                size={26}
-                className="text-gray-700 cursor-pointer"
-                onClick={() => setDropdownOpen(!dropdownOpen)}
-              />
             )}
-            <AnimatePresence>
-              {dropdownOpen && (
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  exit={{ opacity: 0, scale: 0.95 }}
-                  className="absolute right-0 mt-2 w-60 bg-white rounded-md shadow-lg border z-50"
-                >
-                  <div className="p-4 border-b">
-                    <p className="font-semibold text-gray-800">{getUsername()}</p>
-                    <p className="text-sm text-gray-500">{user.email}</p>
-                  </div>
-                  <button
-                    onClick={handleLogout}
-                    className="flex items-center gap-2 w-full px-4 py-2 text-sm text-red-600 hover:bg-gray-100"
-                  >
-                    <FaSignOutAlt />
-                    Logout
-                  </button>
-                </motion.div>
-              )}
-            </AnimatePresence>
           </div>
         </div>
       </nav>
 
-      {/* Mobile Fullscreen Menu */}
+      {/* Mobile Menu Sidebar */}
       <AnimatePresence>
         {menuOpen && (
           <motion.div
@@ -307,6 +287,13 @@ const Navbar = () => {
               <img src={Logo} alt="logo" className="h-10" />
               <FaTimes size={20} onClick={() => setMenuOpen(false)} className="cursor-pointer" />
             </div>
+
+            {user && (
+              <div className="mb-4">
+                <p className="font-semibold text-sm">{getUsername()}</p>
+                <p className="text-xs text-gray-500">{user.email}</p>
+              </div>
+            )}
 
             {subCategories.map((cat, index) => (
               <div
@@ -323,12 +310,8 @@ const Navbar = () => {
 
             {!user ? (
               <div className="mt-6 flex flex-col gap-2">
-                <Link to="/login" className="text-sm text-blue-600 hover:underline">
-                  Login
-                </Link>
-                <Link to="/signup" className="text-sm text-blue-600 hover:underline">
-                  Sign Up
-                </Link>
+                <Link to="/login" className="text-sm text-blue-600 hover:underline">Login</Link>
+                <Link to="/signup" className="text-sm text-blue-600 hover:underline">Sign Up</Link>
               </div>
             ) : (
               <button
@@ -346,7 +329,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
 
 
 
