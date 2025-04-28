@@ -23,6 +23,7 @@ const ProductCard = ({ product }) => {
     if (normalized === "mobiles") return "mobiles";
     if (normalized === "headphones") return "headphones";
     if (normalized === "watches") return "watches";
+    if (normalized === "ac") return "ac";
     return normalized;
   };
 
@@ -99,7 +100,7 @@ export default ProductCard;
 //   const dispatch = useDispatch();
 //   const wishlist = useSelector((state) => state.wishlist);
 //   const isWishlisted = wishlist.some((item) => item.id === product.id);
-//   const user = auth.currentUser;
+//   const user = auth.currentUser; 
 
 //   if (!product || !product.prices || product.prices.length === 0) return null;
 

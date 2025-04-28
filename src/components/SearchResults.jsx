@@ -17,6 +17,7 @@ const SearchResults = () => {
     "http://localhost:5000/headphones",
     "http://localhost:5000/laptops",
     "http://localhost:5000/watches",
+    "http://localhost:5000/ac",
     "http://localhost:5000/vegetables",
     "http://localhost:5000/fruits",
     "http://localhost:5000/dairy",

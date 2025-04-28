@@ -2,7 +2,9 @@ import { useState, useEffect, useRef } from "react";
 import {
   FaSearch,
   FaUserCircle,
+  FaTimesCircle,
   FaSignOutAlt,
+  FaRegUserCircle,
   FaBars,
   FaHeart,
   FaTimes,
@@ -14,7 +16,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import toast, { Toaster } from "react-hot-toast";
 import Logo from "../assets/logo.png";
 import { useSelector, useDispatch } from "react-redux";
-import { clearWishlist } from "../redux/wishlistSlice";
+import { clearWishlist, toggleWishlist } from "../redux/wishlistSlice";
 
 const Navbar = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -29,13 +31,22 @@ const Navbar = () => {
   const wishlist = useSelector((state) => state.wishlist);
 
   const subCategories = [
-    "Mobiles", "Headphones", "Laptops", "Watches",
-    "Vegetables", "Fruits", "Dairy", "Dry Fruits",
-    "Snacks", "Beverages",
+    "Mobiles",
+    "Headphones",
+    "Laptops",
+    "Watches",
+    "Vegetables",
+    "Fruits",
+    "Dairy",
+    "Dry Fruits",
+    "Snacks",
+    "Beverages",
   ];
 
-  const apiEndpoints = subCategories.map(cat => `http://localhost:5000/${cat.toLowerCase()}`);
-
+  const apiEndpoints = subCategories.map(
+    (cat) => `http://localhost:5000/${cat.toLowerCase()}`
+  );
+  
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
@@ -47,7 +58,9 @@ const Navbar = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const responses = await Promise.all(apiEndpoints.map((url) => fetch(url)));
+        const responses = await Promise.all(
+          apiEndpoints.map((url) => fetch(url))
+        );
         const data = await Promise.all(responses.map((res) => res.json()));
         setSuggestions(data.flat());
       } catch (error) {
@@ -102,8 +115,8 @@ const Navbar = () => {
             <img src={Logo} alt="Xprice" className="w-28 h-auto" />
           </Link>
 
-          {/* Search (Center in mobile) */}
-          <div className="flex-1 mx-4 hidden md:block relative max-w-xl">
+          {/* Search */}
+          {/* <div className="flex-1 mx-4 hidden md:block relative max-w-xl">
             <input
               type="text"
               placeholder="Search for products..."
@@ -123,7 +136,40 @@ const Navbar = () => {
                     className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
                     onClick={() => {
                       setSearchQuery("");
-                      navigate(`/product/${product.subCategory.toLowerCase()}/${product.id}`);
+                      navigate(
+                        `/product/${product.subCategory.toLowerCase()}/${product.id}`
+                      );
+                    }}
+                  >
+                    {product.name}
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div> */}
+          <div className="hidden md:flex items-center bg-white border border-gray-300 rounded-full px-4 py-2 shadow-sm max-w-md w-full relative">
+            <FaSearch className="text-gray-400 mr-2" />
+            <input
+              type="text"
+              placeholder="Search for products..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="flex-1 bg-transparent focus:outline-none text-sm placeholder-gray-400"
+            />
+            {/* Dropdown Suggestions */}
+            {searchQuery && filteredSuggestions.length > 0 && (
+              <ul className="absolute top-12 left-0 w-full bg-white border mt-1 max-h-48 overflow-y-auto rounded-md shadow-lg z-10">
+                {filteredSuggestions.slice(0, 5).map((product) => (
+                  <li
+                    key={product.id}
+                    className="px-4 py-2 hover:bg-gray-100 cursor-pointer text-sm"
+                    onClick={() => {
+                      setSearchQuery("");
+                      navigate(
+                        `/product/${product.subCategory.toLowerCase()}/${
+                          product.id
+                        }`
+                      );
                     }}
                   >
                     {product.name}
@@ -133,8 +179,11 @@ const Navbar = () => {
             )}
           </div>
 
-          {/* Menu Button (Mobile) */}
-          <button className="md:hidden text-gray-700" onClick={() => setMenuOpen(true)}>
+          {/* Mobile Menu */}
+          <button
+            className="md:hidden text-gray-700"
+            onClick={() => setMenuOpen(true)}
+          >
             <FaBars size={22} />
           </button>
 
@@ -144,8 +193,17 @@ const Navbar = () => {
             <div className="relative group">
               <button className="flex items-center gap-2 text-sm font-medium text-gray-700 bg-gray-100 px-4 py-2 rounded-md border border-gray-300 shadow-sm hover:bg-blue-50 transition">
                 Categories
-                <svg className="w-5 h-4 text-gray-500" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                <svg
+                  className="w-5 h-4 text-gray-500"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M19 9l-7 7-7-7"
+                  />
                 </svg>
               </button>
               <div className="absolute left-0 top-full mt-2 w-52 bg-white border rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all z-40">
@@ -165,9 +223,12 @@ const Navbar = () => {
             <div className="relative">
               <FaHeart
                 size={22}
-                className={`${user ? "text-red-500" : "text-gray-300"} cursor-pointer`}
+                className={`${
+                  user ? "text-red-500" : "text-gray-300"
+                } cursor-pointer`}
                 onClick={() => {
-                  if (!user) return toast.error("Please login to view wishlist");
+                  if (!user)
+                    return toast.error("Please login to view wishlist");
                   setWishlistOpen(!wishlistOpen);
                 }}
               />
@@ -196,25 +257,53 @@ const Navbar = () => {
                       </Link>
                     </div>
                     {wishlist.length === 0 ? (
-                      <p className="p-4 text-sm text-gray-500">No products in wishlist.</p>
+                      <p className="p-4 text-sm text-gray-500">
+                        No products in wishlist.
+                      </p>
                     ) : (
                       <ul className="divide-y max-h-96 overflow-y-auto">
                         {wishlist.map((item) => (
                           <li
                             key={item.id}
-                            className="p-3 hover:bg-gray-50 flex items-center gap-3 cursor-pointer"
-                            onClick={() => {
-                              setWishlistOpen(false);
-                              navigate(`/product/${item.subCategory.toLowerCase()}/${item.id}`);
-                            }}
+                            className="p-3 hover:bg-gray-50 flex items-start justify-between gap-3"
                           >
-                            <img src={item.image} alt={item.name} className="w-12 h-12 object-contain rounded border" />
-                            <div>
-                              <p className="text-sm font-medium">{item.name}</p>
-                              <p className="text-xs text-green-600 font-semibold">
-                                ₹{Math.min(...item.prices.map(p => p.price))}
-                              </p>
+                            <div
+                              className="flex items-center gap-3 cursor-pointer"
+                              onClick={() => {
+                                setWishlistOpen(false);
+                                navigate(
+                                  `/product/${item.subCategory.toLowerCase()}/${
+                                    item.id
+                                  }`
+                                );
+                              }}
+                            >
+                              <img
+                                src={item.image}
+                                alt={item.name}
+                                className="w-12 h-12 object-contain rounded border"
+                              />
+                              <div>
+                                <p className="text-sm font-medium line-clamp-2">
+                                  {item.name}
+                                </p>
+                                <p className="text-xs text-green-600 font-semibold">
+                                  ₹
+                                  {Math.min(...item.prices.map((p) => p.price))}
+                                </p>
+                              </div>
                             </div>
+                            <FaTimesCircle
+                              className="text-red-500 cursor-pointer hover:scale-110 w-[18px] h-[18px] flex-shrink-0"
+                              onClick={() =>
+                                dispatch(
+                                  toggleWishlist({
+                                    product: item,
+                                    uid: user.uid,
+                                  })
+                                )
+                              }
+                            />
                           </li>
                         ))}
                       </ul>
@@ -224,58 +313,139 @@ const Navbar = () => {
               </AnimatePresence>
             </div>
 
-            {/* User Dropdown */}
-            {user ? (
-              <div className="relative">
-                <FaUserCircle
-                  size={26}
-                  className="text-gray-700 cursor-pointer"
-                  onClick={() => setDropdownOpen(!dropdownOpen)}
-                />
-                <AnimatePresence>
-                  {dropdownOpen && (
-                    <motion.div
-                      initial={{ opacity: 0, y: -10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, y: -10 }}
-                      className="absolute right-0 mt-2 w-64 bg-white rounded-md shadow-lg border z-50"
-                    >
-                      <div className="p-4 border-b">
-                        <div className="flex items-center gap-3">
-                          <FaUserCircle size={30} className="text-gray-500" />
-                          <div>
-                            <p className="text-sm font-semibold text-gray-800">{getUsername()}</p>
-                            <p className="text-xs text-gray-500">{user.email}</p>
+            {/* User Icon and Dropdown */}
+            {/* <div className="relative">
+              <FaRegUserCircle
+                size={26}
+                className="text-gray-700 cursor-pointer"
+                onClick={() => setDropdownOpen(!dropdownOpen)}
+              />
+              <AnimatePresence>
+                {dropdownOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -10 }}
+                    className={`absolute right-0 mt-2 w-64 rounded-md shadow-lg border z-50 ${
+                      user
+                        ? "bg-[#1f2937] text-white border-gray-700"
+                        : "bg-white"
+                    }`}
+                  >
+                    {user ? (
+                      <>
+                        <div className="p-4 border-b border-gray-700">
+                          <div className="flex items-center gap-3">
+                            <FaUserCircle size={30} className="text-gray-400" />
+                            <div>
+                              <p className="text-sm font-semibold">
+                                {getUsername()}
+                              </p>
+                              <p className="text-xs text-gray-400">
+                                {user.email}
+                              </p>
+                            </div>
                           </div>
                         </div>
+                        <button
+                          onClick={handleLogout}
+                          className="w-full text-left px-4 py-3 text-sm text-red-400 hover:bg-gray-800 flex items-center gap-2 transition"
+                        >
+                          <FaSignOutAlt />
+                          Logout
+                        </button>
+                      </>
+                    ) : (
+                      <div className="p-4 flex flex-col gap-2">
+                        <Link
+                          to="/login"
+                          className="text-sm text-blue-600 hover:underline"
+                          onClick={() => setDropdownOpen(false)}
+                        >
+                          Login
+                        </Link>
+                        <Link
+                          to="/signup"
+                          className="text-sm text-blue-600 hover:underline"
+                          onClick={() => setDropdownOpen(false)}
+                        >
+                          Sign Up
+                        </Link>
                       </div>
-                      <button
-                        onClick={handleLogout}
-                        className="w-full text-left px-4 py-3 text-sm text-red-600 hover:bg-gray-50 flex items-center gap-2"
-                      >
-                        <FaSignOutAlt />
-                        Logout
-                      </button>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
+                    )}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div> */}
+            <div className="relative">
+  <FaRegUserCircle
+    size={28}
+    className="text-gray-700 cursor-pointer hover:text-blue-600 transition"
+    onClick={() => setDropdownOpen(!dropdownOpen)}
+  />
+
+  <AnimatePresence>
+    {dropdownOpen && (
+      <motion.div
+        initial={{ opacity: 0, y: -10 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: -10 }}
+        className={`absolute right-0 mt-3 w-64 rounded-xl shadow-2xl border z-50 overflow-hidden ${
+          user
+            ? "bg-[#1f2937] text-white border-gray-700"
+            : "bg-white text-gray-800 border-gray-200"
+        }`}
+      >
+        {user ? (
+          <>
+            {/* Profile Info */}
+            <div className="p-4 border-b border-gray-700 flex items-center gap-4">
+              <FaUserCircle size={34} className="text-gray-400" />
+              <div>
+                <p className="text-sm font-semibold">{getUsername()}</p>
+                <p className="text-xs text-gray-400 truncate">{user.email}</p>
               </div>
-            ) : (
-              <>
-                <Link to="/login" className="text-sm px-3 py-1 border rounded-md hover:bg-gray-100">
-                  Login
-                </Link>
-                <Link to="/signup" className="text-sm bg-blue-600 text-white px-3 py-1 rounded-md hover:bg-blue-700">
-                  Sign Up
-                </Link>
-              </>
-            )}
+            </div>
+
+            {/* Logout Button */}
+            <button
+              onClick={handleLogout}
+              className="w-full px-4 py-3 text-sm text-red-400 hover:bg-gray-800 hover:text-red-300 flex items-center gap-3 transition font-semibold"
+            >
+              <FaSignOutAlt size={18} />
+              Logout
+            </button>
+          </>
+        ) : (
+          <div className="p-4 flex flex-col gap-3">
+            <Link
+              to="/login"
+              className="text-sm font-semibold text-blue-600 hover:bg-blue-50 rounded-md p-2 transition text-center"
+              onClick={() => setDropdownOpen(false)}
+            >
+              Login
+            </Link>
+            <Link
+              to="/signup"
+              className="text-sm font-semibold text-blue-600 hover:bg-blue-50 rounded-md p-2 transition text-center"
+              onClick={() => setDropdownOpen(false)}
+            >
+              Sign Up
+            </Link>
+          </div>
+        )}
+      </motion.div>
+    )}
+  </AnimatePresence>
+</div>
+
           </div>
         </div>
       </nav>
 
-      {/* Mobile Menu Sidebar */}
-      <AnimatePresence>
+
+      {/* mobile menu */}
+      {/* <AnimatePresence>
         {menuOpen && (
           <motion.div
             initial={{ x: "100%" }}
@@ -285,7 +455,11 @@ const Navbar = () => {
           >
             <div className="flex justify-between items-center mb-6">
               <img src={Logo} alt="logo" className="h-10" />
-              <FaTimes size={20} onClick={() => setMenuOpen(false)} className="cursor-pointer" />
+              <FaTimes
+                size={20}
+                onClick={() => setMenuOpen(false)}
+                className="cursor-pointer"
+              />
             </div>
 
             {user && (
@@ -310,8 +484,18 @@ const Navbar = () => {
 
             {!user ? (
               <div className="mt-6 flex flex-col gap-2">
-                <Link to="/login" className="text-sm text-blue-600 hover:underline">Login</Link>
-                <Link to="/signup" className="text-sm text-blue-600 hover:underline">Sign Up</Link>
+                <Link
+                  to="/login"
+                  className="text-sm text-blue-600 hover:underline"
+                >
+                  Login
+                </Link>
+                <Link
+                  to="/signup"
+                  className="text-sm text-blue-600 hover:underline"
+                >
+                  Sign Up
+                </Link>
               </div>
             ) : (
               <button
@@ -323,14 +507,549 @@ const Navbar = () => {
             )}
           </motion.div>
         )}
+      </AnimatePresence> */}
+        {/* Mobile Menu */}
+        <AnimatePresence>
+        {menuOpen && (
+          <motion.div
+            initial={{ x: "100%" }}
+            animate={{ x: 0 }}
+            exit={{ x: "100%" }}
+            className="fixed top-0 right-0 w-72 h-full bg-white shadow-lg z-[100] px-6 py-4"
+          >
+            <div className="flex justify-between items-center mb-6">
+              <img src={Logo} alt="logo" className="h-10" />
+              <FaTimes size={20} onClick={() => setMenuOpen(false)} className="cursor-pointer" />
+            </div>
+
+            {/* Search inside mobile */}
+            <div className="flex items-center bg-white border border-gray-300 rounded-full px-3 py-1 shadow-sm w-full mb-4">
+              <FaSearch className="text-gray-400 mr-2" />
+              <input
+                type="text"
+                placeholder="Search for products..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="flex-1 bg-transparent focus:outline-none text-sm placeholder-gray-400"
+              />
+            </div>
+
+            {/* Wishlist summary */}
+            {user && (
+              <div className="mb-4">
+                <p className="font-semibold text-sm mb-2">Wishlist: {wishlist.length} items</p>
+              </div>
+            )}
+
+            {/* User login/logout */}
+            {user ? (
+              <>
+                <p className="text-sm font-semibold mb-2">Hi, {getUsername()}</p>
+                <button onClick={handleLogout} className="text-sm text-red-600 hover:underline mb-4">
+                  Logout
+                </button>
+              </>
+            ) : (
+              <div className="flex flex-col gap-2 mb-4">
+                <Link to="/login" onClick={() => setMenuOpen(false)} className="text-sm text-blue-600 hover:underline">Login</Link>
+                <Link to="/signup" onClick={() => setMenuOpen(false)} className="text-sm text-blue-600 hover:underline">Sign Up</Link>
+              </div>
+            )}
+
+            {subCategories.map((cat, index) => (
+              <div
+                key={index}
+                onClick={() => {
+                  navigate(`/category/${cat.toLowerCase()}`);
+                  setMenuOpen(false);
+                }}
+                className="text-sm py-2 border-b hover:text-blue-600 cursor-pointer"
+              >
+                {cat}
+              </div>
+            ))}
+          </motion.div>
+        )}
       </AnimatePresence>
+      
     </>
   );
 };
 
 export default Navbar;
 
+// import { useState, useEffect, useRef } from "react";
+// import {
+//   FaSearch,
+//   FaUserCircle,
+//   FaTimesCircle,
+//   FaSignOutAlt,
+//   FaRegUserCircle,
+//   FaBars,
+//   FaHeart,
+//   FaTimes,
+// } from "react-icons/fa";
+// import { Link, useNavigate } from "react-router-dom";
+// import { auth } from "../firebase";
+// import { onAuthStateChanged, signOut } from "firebase/auth";
+// import { motion, AnimatePresence } from "framer-motion";
+// import toast, { Toaster } from "react-hot-toast";
+// import Logo from "../assets/logo.png";
+// import { useSelector, useDispatch } from "react-redux";
+// import { clearWishlist, toggleWishlist } from "../redux/wishlistSlice";
 
+// const Navbar = () => {
+//   const [searchQuery, setSearchQuery] = useState("");
+//   const [suggestions, setSuggestions] = useState([]);
+//   const [user, setUser] = useState(null);
+//   const [dropdownOpen, setDropdownOpen] = useState(false);
+//   const [menuOpen, setMenuOpen] = useState(false);
+//   const [wishlistOpen, setWishlistOpen] = useState(false);
+//   const dropdownRef = useRef();
+//   const navigate = useNavigate();
+//   const dispatch = useDispatch();
+//   const wishlist = useSelector((state) => state.wishlist);
+
+//   const subCategories = [
+//     "Mobiles",
+//     "Headphones",
+//     "Laptops",
+//     "Watches",
+//     "Vegetables",
+//     "Fruits",
+//     "Dairy",
+//     "Dry Fruits",
+//     "Snacks",
+//     "Beverages",
+//   ];
+
+//   const apiEndpoints = subCategories.map(
+//     (cat) => `http://localhost:5000/${cat.toLowerCase()}`
+//   );
+
+//   useEffect(() => {
+//     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+//       setUser(currentUser);
+//       if (!currentUser) dispatch(clearWishlist());
+//     });
+//     return () => unsubscribe();
+//   }, [dispatch]);
+
+//   useEffect(() => {
+//     const fetchProducts = async () => {
+//       try {
+//         const responses = await Promise.all(
+//           apiEndpoints.map((url) => fetch(url))
+//         );
+//         const data = await Promise.all(responses.map((res) => res.json()));
+//         setSuggestions(data.flat());
+//       } catch (error) {
+//         console.error("Error fetching products:", error);
+//       }
+//     };
+//     fetchProducts();
+//   }, []);
+
+//   useEffect(() => {
+//     const handleClickOutside = (e) => {
+//       if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
+//         setDropdownOpen(false);
+//         setWishlistOpen(false);
+//       }
+//     };
+//     document.addEventListener("mousedown", handleClickOutside);
+//     return () => document.removeEventListener("mousedown", handleClickOutside);
+//   }, []);
+
+//   const handleLogout = async () => {
+//     await signOut(auth);
+//     dispatch(clearWishlist());
+//     setUser(null);
+//     toast.success("Logged out successfully!");
+//     navigate("/login");
+//   };
+
+//   const handleSearch = () => {
+//     if (searchQuery.trim()) {
+//       navigate(`/search?q=${searchQuery}`);
+//     }
+//   };
+
+//   const getUsername = () => {
+//     if (user?.displayName) return user.displayName;
+//     if (user?.email) return user.email.split("@")[0];
+//     return "User";
+//   };
+
+//   const filteredSuggestions = suggestions.filter((product) =>
+//     product.name.toLowerCase().includes(searchQuery.toLowerCase())
+//   );
+
+//   return (
+//     <>
+//       <Toaster position="top-right" />
+//       <nav className="bg-white shadow-md fixed top-0 left-0 w-full z-50 border-b border-gray-200">
+//         <div className="max-w-screen-xl mx-auto flex items-center justify-between px-4 py-3 md:py-4">
+//           {/* Logo */}
+//           <Link to="/">
+//             <img src={Logo} alt="Xprice" className="w-28 h-auto" />
+//           </Link>
+
+//           {/* Search (Center in mobile) */}
+//           <div className="flex-1 mx-4 hidden md:block relative max-w-xl">
+//             <input
+//               type="text"
+//               placeholder="Search for products..."
+//               value={searchQuery}
+//               onChange={(e) => setSearchQuery(e.target.value)}
+//               className="w-full pl-4 pr-10 py-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+//             />
+//             <FaSearch
+//               className="absolute top-1/2 right-3 -translate-y-1/2 text-gray-500 cursor-pointer"
+//               onClick={handleSearch}
+//             />
+//             {searchQuery && filteredSuggestions.length > 0 && (
+//               <ul className="absolute left-0 w-full bg-white border mt-1 max-h-48 overflow-y-auto rounded-md shadow-lg z-10">
+//                 {filteredSuggestions.slice(0, 5).map((product) => (
+//                   <li
+//                     key={product.id}
+//                     className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
+//                     onClick={() => {
+//                       setSearchQuery("");
+//                       navigate(
+//                         `/product/${product.subCategory.toLowerCase()}/${
+//                           product.id
+//                         }`
+//                       );
+//                     }}
+//                   >
+//                     {product.name}
+//                   </li>
+//                 ))}
+//               </ul>
+//             )}
+//           </div>
+
+//           {/* Menu Button (Mobile) */}
+//           <button
+//             className="md:hidden text-gray-700"
+//             onClick={() => setMenuOpen(true)}
+//           >
+//             <FaBars size={22} />
+//           </button>
+
+//           {/* Desktop Right Section */}
+//           <div className="hidden md:flex items-center gap-5" ref={dropdownRef}>
+//             {/* Categories */}
+//             <div className="relative group">
+//               <button className="flex items-center gap-2 text-sm font-medium text-gray-700 bg-gray-100 px-4 py-2 rounded-md border border-gray-300 shadow-sm hover:bg-blue-50 transition">
+//                 Categories
+//                 <svg
+//                   className="w-5 h-4 text-gray-500"
+//                   fill="none"
+//                   stroke="currentColor"
+//                   strokeWidth="2"
+//                 >
+//                   <path
+//                     strokeLinecap="round"
+//                     strokeLinejoin="round"
+//                     d="M19 9l-7 7-7-7"
+//                   />
+//                 </svg>
+//               </button>
+//               <div className="absolute left-0 top-full mt-2 w-52 bg-white border rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all z-40">
+//                 {subCategories.map((cat, i) => (
+//                   <div
+//                     key={i}
+//                     className="px-4 py-2 text-sm hover:bg-blue-50 capitalize cursor-pointer"
+//                     onClick={() => navigate(`/category/${cat.toLowerCase()}`)}
+//                   >
+//                     {cat}
+//                   </div>
+//                 ))}
+//               </div>
+//             </div>
+
+//             {/* Wishlist */}
+//             <div className="relative">
+//               <FaHeart
+//                 size={22}
+//                 className={`${
+//                   user ? "text-red-500" : "text-gray-300"
+//                 } cursor-pointer`}
+//                 onClick={() => {
+//                   if (!user)
+//                     return toast.error("Please login to view wishlist");
+//                   setWishlistOpen(!wishlistOpen);
+//                 }}
+//               />
+//               {user && wishlist.length > 0 && (
+//                 <span className="absolute -top-2 -right-2 text-xs bg-red-600 text-white px-1.5 rounded-full">
+//                   {wishlist.length}
+//                 </span>
+//               )}
+//               <AnimatePresence>
+//                 {user && wishlistOpen && (
+//                   <motion.div
+//                     initial={{ opacity: 0, scale: 0.95 }}
+//                     animate={{ opacity: 1, scale: 1 }}
+//                     exit={{ opacity: 0, scale: 0.95 }}
+//                     transition={{ duration: 0.2 }}
+//                     className="absolute right-0 top-10 w-80 bg-white rounded-md shadow-lg border z-50"
+//                   >
+//                     <div className="p-4 border-b font-semibold flex justify-between">
+//                       Wishlist ({wishlist.length})
+//                       <Link
+//                         to="/wishlist"
+//                         onClick={() => setWishlistOpen(false)}
+//                         className="text-sm text-blue-500 hover:underline"
+//                       >
+//                         View All
+//                       </Link>
+//                     </div>
+//                     {wishlist.length === 0 ? (
+//                       <p className="p-4 text-sm text-gray-500">
+//                         No products in wishlist.
+//                       </p>
+//                     ) : (
+//                       <ul className="divide-y max-h-96 overflow-y-auto">
+//                         {wishlist.map((item) => (
+//                           <li
+//                             key={item.id}
+//                             className="p-3 hover:bg-gray-50 flex items-start justify-between gap-3"
+//                           >
+//                             <div
+//                               className="flex items-center gap-3 cursor-pointer"
+//                               onClick={() => {
+//                                 setWishlistOpen(false);
+//                                 navigate(
+//                                   `/product/${item.subCategory.toLowerCase()}/${
+//                                     item.id
+//                                   }`
+//                                 );
+//                               }}
+//                             >
+//                               <img
+//                                 src={item.image}
+//                                 alt={item.name}
+//                                 className="w-12 h-12 object-contain rounded border"
+//                               />
+//                               <div>
+//                                 <p className="text-sm line-clamp- font-medium">
+//                                   {item.name}
+//                                 </p>
+//                                 <p className="text-xs text-green-600 font-semibold">
+//                                   ₹
+//                                   {Math.min(...item.prices.map((p) => p.price))}
+//                                 </p>
+//                               </div>
+//                             </div>
+//                             {/* Remove Icon */}
+//                             <FaTimesCircle
+//                               className="text-red-500 cursor-pointer hover:scale-110 w-[18px] h-[18px] flex-shrink-0"
+//                               onClick={() =>
+//                                 dispatch(
+//                                   toggleWishlist({
+//                                     product: item,
+//                                     uid: user.uid,
+//                                   })
+//                                 )
+//                               }
+//                             />
+//                           </li>
+//                         ))}
+//                       </ul>
+//                     )}
+//                   </motion.div>
+//                 )}
+//               </AnimatePresence>
+//             </div>
+
+//             {/* User Dropdown */}
+//             {/* {user ? (
+//               <div className="relative">
+//                 <FaRegUserCircle
+//                   size={26}
+//                   className="text-gray-700 cursor-pointer"
+//                   onClick={() => setDropdownOpen(!dropdownOpen)}
+//                 />
+//                 <AnimatePresence>
+//                   {dropdownOpen && (
+//                     <motion.div
+//                       initial={{ opacity: 0, y: -10 }}
+//                       animate={{ opacity: 1, y: 0 }}
+//                       exit={{ opacity: 0, y: -10 }}
+//                       className="absolute right-0 mt-2 w-64 bg-white rounded-md shadow-lg border z-50"
+//                     >
+//                       <div className="p-4 border-b">
+//                         <div className="flex items-center gap-3">
+//                           <FaUserCircle size={30} className="text-gray-500" />
+//                           <div>
+//                             <p className="text-sm font-semibold text-gray-800">
+//                               {getUsername()}
+//                             </p>
+//                             <p className="text-xs text-gray-500">
+//                               {user.email}
+//                             </p>
+//                           </div>
+//                         </div>
+//                       </div>
+//                       <button
+//                         onClick={handleLogout}
+//                         className="w-full text-left px-4 py-3 text-sm text-red-600 hover:bg-gray-50 flex items-center gap-2"
+//                       >
+//                         <FaSignOutAlt />
+//                         Logout
+//                       </button>
+//                     </motion.div>
+//                   )}
+//                 </AnimatePresence>
+//               </div>
+//             ) : (
+//               <>
+//                 <Link
+//                   to="/login"
+//                   className="text-sm px-3 py-1 border rounded-md hover:bg-gray-100"
+//                 >
+//                   Login
+//                 </Link>
+//                 <Link
+//                   to="/signup"
+//                   className="text-sm bg-blue-600 text-white px-3 py-1 rounded-md hover:bg-blue-700"
+//                 >
+//                   Sign Up
+//                 </Link>
+//               </>
+//             )} */}
+
+//             {user ? (
+//               <div className="relative">
+//                 <FaRegUserCircle
+//                   size={26}
+//                   className="text-gray-700 cursor-pointer"
+//                   onClick={() => setDropdownOpen(!dropdownOpen)}
+//                 />
+//                 <AnimatePresence>
+//                   {dropdownOpen && (
+//                     <motion.div
+//                       initial={{ opacity: 0, y: -10 }}
+//                       animate={{ opacity: 1, y: 0 }}
+//                       exit={{ opacity: 0, y: -10 }}
+//                       className="absolute right-0 mt-2 w-64 bg-[#1f2937] text-white rounded-md shadow-lg border border-gray-700 z-50"
+//                     >
+//                       <div className="p-4 border-b border-gray-700">
+//                         <div className="flex items-center gap-3">
+//                           <FaUserCircle size={30} className="text-gray-400" />
+//                           <div>
+//                             <p className="text-sm font-semibold">
+//                               {getUsername()}
+//                             </p>
+//                             <p className="text-xs text-gray-400">
+//                               {user.email}
+//                             </p>
+//                           </div>
+//                         </div>
+//                       </div>
+//                       <button
+//                         onClick={handleLogout}
+//                         className="w-full text-left px-4 py-3 text-sm text-red-400 hover:bg-gray-800 flex items-center gap-2 transition"
+//                       >
+//                         <FaSignOutAlt />
+//                         Logout
+//                       </button>
+//                     </motion.div>
+//                   )}
+//                 </AnimatePresence>
+//               </div>
+//             ) : (
+//               <>
+//                 <Link
+//                   to="/login"
+//                   className="text-sm px-3 py-1 border rounded-md hover:bg-gray-100"
+//                 >
+//                   Login
+//                 </Link>
+//                 <Link
+//                   to="/signup"
+//                   className="text-sm bg-blue-600 text-white px-3 py-1 rounded-md hover:bg-blue-700"
+//                 >
+//                   Sign Up
+//                 </Link>
+//               </>
+//             )}
+//           </div>
+//         </div>
+//       </nav>
+
+//       {/* Mobile Menu Sidebar */}
+      // <AnimatePresence>
+      //   {menuOpen && (
+      //     <motion.div
+      //       initial={{ x: "100%" }}
+      //       animate={{ x: 0 }}
+      //       exit={{ x: "100%" }}
+      //       className="fixed top-0 right-0 w-72 h-full bg-white shadow-lg z-[100] px-6 py-4"
+      //     >
+      //       <div className="flex justify-between items-center mb-6">
+      //         <img src={Logo} alt="logo" className="h-10" />
+      //         <FaTimes
+      //           size={20}
+      //           onClick={() => setMenuOpen(false)}
+      //           className="cursor-pointer"
+      //         />
+      //       </div>
+
+      //       {user && (
+      //         <div className="mb-4">
+      //           <p className="font-semibold text-sm">{getUsername()}</p>
+      //           <p className="text-xs text-gray-500">{user.email}</p>
+      //         </div>
+      //       )}
+
+      //       {subCategories.map((cat, index) => (
+      //         <div
+      //           key={index}
+      //           onClick={() => {
+      //             navigate(`/category/${cat.toLowerCase()}`);
+      //             setMenuOpen(false);
+      //           }}
+      //           className="text-sm py-2 border-b hover:text-blue-600 cursor-pointer"
+      //         >
+      //           {cat}
+      //         </div>
+      //       ))}
+
+      //       {!user ? (
+      //         <div className="mt-6 flex flex-col gap-2">
+      //           <Link
+      //             to="/login"
+      //             className="text-sm text-blue-600 hover:underline"
+      //           >
+      //             Login
+      //           </Link>
+      //           <Link
+      //             to="/signup"
+      //             className="text-sm text-blue-600 hover:underline"
+      //           >
+      //             Sign Up
+      //           </Link>
+      //         </div>
+      //       ) : (
+      //         <button
+      //           onClick={handleLogout}
+      //           className="mt-6 text-sm text-red-600 hover:underline"
+      //         >
+      //           Logout
+      //         </button>
+      //       )}
+      //     </motion.div>
+      //   )}
+      // </AnimatePresence>
+//     </>
+//   );
+// };
+
+// export default Navbar;
 
 // import { useState, useEffect, useRef } from "react";
 // import {
@@ -628,7 +1347,6 @@ export default Navbar;
 
 // export default Navbar;
 
-
 // import { useState, useEffect, useRef } from "react";
 // import {
 //   FaSearch,
@@ -911,7 +1629,6 @@ export default Navbar;
 
 // export default Navbar;
 
-
 // import { useState, useEffect, useRef } from "react";
 // import { FaSearch, FaUserCircle, FaSignOutAlt, FaBars } from "react-icons/fa";
 // import { Link, useNavigate } from "react-router-dom";
@@ -1073,7 +1790,6 @@ export default Navbar;
 //     ))}
 //   </div>
 // </div>
-
 
 //         {/* Search (Desktop) */}
 //         <div className="hidden md:block flex-1 px-6 relative max-w-xl w-full">

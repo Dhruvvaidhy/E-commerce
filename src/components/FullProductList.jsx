@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleWishlist } from "../redux/wishlistSlice";
-import { FaHeart, FaRegHeart } from "react-icons/fa";
+import { FaHeart, FaRegHeart, FaArrowLeft } from "react-icons/fa";
 import { auth } from "../firebase";
 import toast from "react-hot-toast";
 
@@ -12,6 +12,7 @@ const FullProductList = () => {
   const wishlist = useSelector((state) => state.wishlist);
   const dispatch = useDispatch();
   const user = auth.currentUser;
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetch(`http://localhost:5000/${category}`)
@@ -29,15 +30,31 @@ const FullProductList = () => {
   };
 
   return (
-    <div className="pt-20 px-4 sm:px-6 md:px-8 pb-10 bg-gray-50 min-h-screen">
-      <h2 className="text-2xl font-bold mb-6 capitalize text-center">{category} - All Products</h2>
+    <div className="pt-24 px-4 sm:px-6 md:px-8 pb-10 bg-gray-50 min-h-screen">
+      {/* <h2 className="text-2xl font-bold mb-6 capitalize text-center">{category} - All Products</h2> */}
+      <div className="relative flex items-center justify-center mb-8">
+        <button
+          onClick={() => navigate(-1)}
+          className="absolute left-0 text-gray-600 hover:text-black text-xl p-2 rounded-full border border-gray-300 hover:bg-gray-100 transition"
+          title="Go Back"
+        >
+          <FaArrowLeft />
+        </button>
+        <h2 className="text-2xl font-bold capitalize">
+          {category} - All Products
+        </h2>
+      </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products.length > 0 ? (
           products.map((product) => {
-            const isWishlisted = wishlist.some((item) => item.id === product.id);
+            const isWishlisted = wishlist.some(
+              (item) => item.id === product.id
+            );
 
-            const sortedPrices = [...product.prices].sort((a, b) => a.price - b.price);
+            const sortedPrices = [...product.prices].sort(
+              (a, b) => a.price - b.price
+            );
 
             return (
               <div
@@ -47,14 +64,16 @@ const FullProductList = () => {
                 {/* Wishlist Button */}
                 <button
                   onClick={() => handleWishlistToggle(product)}
-                  className="absolute top-2 right-2 text-red-500 text-xl z-10"
+                  className="absolute top-3 right-3 text-red-500 text-xl z-10"
                 >
                   {isWishlisted ? <FaHeart /> : <FaRegHeart />}
                 </button>
 
                 {/* Brand */}
                 {product.brand && (
-                  <h3 className="text-sm font-bold text-blue-700 uppercase">{product.brand}</h3>
+                  <h3 className="text-sm font-bold text-blue-700 uppercase">
+                    {product.brand}
+                  </h3>
                 )}
 
                 {/* Image */}
@@ -103,7 +122,9 @@ const FullProductList = () => {
             );
           })
         ) : (
-          <p className="col-span-full text-center text-gray-500">No products found.</p>
+          <p className="col-span-full text-center text-gray-500">
+            No products found.
+          </p>
         )}
       </div>
     </div>
@@ -111,8 +132,6 @@ const FullProductList = () => {
 };
 
 export default FullProductList;
-
-
 
 // import React, { useEffect, useState } from "react";
 // import { useParams, Link } from "react-router-dom";
@@ -201,7 +220,7 @@ export default FullProductList;
 //                       <div
 //                         key={index}
 //                         className="flex items-center justify-between text-xs text-gray-700 my-1"
-//                       > 
+//                       >
 //                         <img
 //                           src={p.logo}
 //                           alt={p.store}

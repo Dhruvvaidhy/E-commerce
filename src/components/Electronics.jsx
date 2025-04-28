@@ -6,20 +6,23 @@ const Electronics = () => {
   const [headphones, setHeadphones] = useState([]);
   const [laptops, setLaptops] = useState([]);
   const [watches, setWatches] = useState([]);
+  const [ac, setAc] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:5000/mobiles").then(res => res.json()).then(data => setMobiles(data));
     fetch("http://localhost:5000/headphones").then(res => res.json()).then(data => setHeadphones(data));
     fetch("http://localhost:5000/laptops").then(res => res.json()).then(data => setLaptops(data)); // Fixed typo: laptopes → laptops
-    fetch("http://localhost:5000/watches").then(res => res.json()).then(data => setWatches(data));
+    fetch("http://localhost:5000/watches").then(res => res.json()).then(data => setWatches(data)); 
+    fetch("http://localhost:5000/ac").then(res => res.json()).then(data => setAc(data)); 
   }, []);
 
   return (
-    <div className="p-3">
+    <div className="p-2">
       <ProductSlider title="Top Mobiles" items={mobiles} category="mobiles" />
       <ProductSlider title="Top Headphones" items={headphones} category="headphones" />
       <ProductSlider title="Top Laptops" items={laptops} category="laptops" />
       <ProductSlider title="Top Watches" items={watches} category="watches" />
+      <ProductSlider title="Top ACs" items={ac} category="ac" />
     </div>
   );
 };

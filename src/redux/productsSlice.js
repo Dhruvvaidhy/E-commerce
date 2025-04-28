@@ -8,6 +8,7 @@ const API_ENDPOINTS = {
     "http://localhost:5000/headphones",
     "http://localhost:5000/laptopes",
     "http://localhost:5000/watches",
+    "http://localhost:5000/ac",
   ],
   grocery: [
     "http://localhost:5000/vegetables",

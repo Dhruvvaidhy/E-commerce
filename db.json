@@ -9,7 +9,7 @@
       "prices": [
         {
           "platform": "Flipkart",
-          "price": 129999,
+          "price": 123999,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/samsung-galaxy-s25-ultra-5g-titanium-silverblue-256-gb/p/itm7d0e1ef71672e?pid=MOBH8K8U5FWQWD6G&lid=LSTMOBH8K8U5FWQWD6GNYBEKF&marketplace=FLIPKART&q=Samsung%20Galaxy%20S25%20Ultra%205G&sattr[]=color&sattr[]=storage&st=storage"
         },
@@ -34,12 +34,6 @@
       "name": "iPhone 14 (128 GB) - Blue",
       "image": "https://m.media-amazon.com/images/I/31VjlrbE3bL._SY445_SX342_QL70_FMwebp_.jpg",
       "prices": [
-        {
-          "platform": "Amazon",
-          "price": 54900,
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
-          "url": "https://www.amazon.in/Apple-iPhone-14-128GB-Blue/dp/B0BDK62PDX/ref=sr_1_6?crid=1974FSJWE2IJS&dib=eyJ2IjoiMSJ9.dm62FKRWy1Pri6xMnce9yl_xne08gQduIvUNXw0Cx7Lde1q0nLD-iXkLdjydvPsMTCpSCPQxnCyJzsuEd852WDLnK5XMDbPPj51jlujmmod0sVPN2A4BDEKfuguIwSr9Vh88CEikjpXLTO5WA_pkQ_VjOLFL4bc8Z-Noh3niZKLyUwVmDPmdpjtEZl3yXoXV4owKo6evegMa3T8SHFJmehZBPTf_8mSEM-b7ZbmTFhY.YkJBi57XzDNiWmkpx_jNckF7TPPXorgb5nBSrBejSp8&dib_tag=se&keywords=iPhone%2B14&qid=1741598623&sprefix=iphone%2B14%2Caps%2C236&sr=8-6&th=1"
-        },
         {
           "platform": "Flipkart",
           "price": 54999,
@@ -75,7 +69,7 @@
         },
         {
           "platform": "Flipkart",
-          "price": 41700,
+          "price": 40611,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/oneplus-13r-5g-nebula-noir-256-gb/p/itmff6561809fab8?pid=MOBH8EWQ6GUDHGFK&lid=LSTMOBH8EWQ6GUDHGFKIBN5Q0&marketplace=FLIPKART&q=oneplus+mobile+5g&store=tyy%2F4io&srno=s_1_6&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_ps&fm=search-autosuggest&iid=d6c7a296-59d2-43c2-b46c-5c10e30a6f4d.MOBH8EWQ6GUDHGFK.SEARCH&ppt=sp&ppn=sp&ssid=g4ph5o6auo0000001741599462937&qH=1462a4613d639586"
         },
@@ -102,9 +96,9 @@
       "prices": [
         {
           "platform": "Flipkart",
-          "price": 71300,
+          "price": 74999,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
-          "url": "https://www.flipkart.com/Google-Pixel-7"
+          "url": "https://www.flipkart.com/google-pixel-9-porcelain-256-gb/p/itm5364256d5efe2?pid=MOBH2HJG3HNTSRYT&lid=LSTMOBH2HJG3HNTSRYTVPUWYB&marketplace=FLIPKART&q=Google+Pixel+9+%2812GB+RAM%2C+256GB+Storage%29+Porcelain&store=tyy%2F4io&srno=s_1_4&otracker=search&otracker1=search&fm=organic&iid=1cb0feb9-4d7a-4199-88b7-e6162e4dc115.MOBH2HJG3HNTSRYT.SEARCH&ppt=hp&ppn=homepage&ssid=oxf1751qhc0000001745813782358&qH=3183e2b23317eb7a"
         },
         {
           "platform": "Croma",
@@ -129,7 +123,7 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 40899,
+          "price": 38678,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/dp/B0DTJ17XVR/ref=twister_B0DVGQRNNT?th=1"
         },
@@ -162,13 +156,13 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 34997,
+          "price": 35790,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/realme-8GB-Storage-Fluid-Silver/dp/B0D7Q9ZDKZ/ref=sr_1_2?crid=33LJLYR6O2U01&dib=eyJ2IjoiMSJ9.QemV7B9-yMHXME0F58-HkrezeXk1Dh16JZaYeRCVgUN6ekGrp0N2j6Bf_vMaPv6LxW8YcZI-rhvCuAzLVqI4XrtxpDagFlT8_XmyXAmG-ZhdZ32_b5BHlFT1ZkpFPnPkTthlNvHwdpK3R6yxA_jU2GD1mw8xASE6q8bcUSlx4LpJrHz0mGwTlJGAJeI6PSqLKYClRPaSy6vDvj7mil3bIHIPCTB9_P23btyDzXiwsleBEHdWhplDqWO6vMDUdRz-7lJ_sgNONi1Xgj20mFKhsZcxdh1ITOgaKWfKZGniZ7G2t-ZYZOEGrv7A5Ag5s41NjEd8wasEtl2NmyhoIleHPAZL2-FV8wrF8yJrG47strA.XE5zSSVnKQevEHwjgUBx2wS4z7hCR8NeK3PwLfFsTWQ&dib_tag=se&keywords=realme%2BGT%2B6%2B5G%2B(8GB%2BRAM%2C%2B256GB%2C%2BFluid%2BSilver)&nsdOptOutParam=true&qid=1741601214&s=electronics&sprefix=realme%2Bgt%2B6%2B5g%2B8gb%2Bram%2C%2B256gb%2C%2Bfluid%2Bsilver%2B%2Celectronics%2C245&sr=1-2&th=1"
         },
         {
           "platform": "Flipkart",
-          "price": 33999,
+          "price": 31999,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/realme-gt-6-fluid-silver-256-gb/p/itm1a28b99c077b5?pid=MOBHFGUHTRX6RD6H&lid=LSTMOBHFGUHTRX6RD6HVQYQKD&marketplace=FLIPKART&q=realme+GT+6+5G+%288GB+RAM%2C+256GB%2C+Fluid+Silver%29&store=tyy%2F4io&srno=s_1_2&otracker=search&otracker1=search&fm=search-autosuggest&iid=c491f5a1-8e8e-420a-92ca-90c35943db4d.MOBHFGUHTRX6RD6H.SEARCH&ppt=pp&ppn=pp&ssid=56p1au72yo0000001741601132274&qH=6275e87d7ae54863"
         },
@@ -182,7 +176,7 @@
           "platform": "Vijay Sales",
           "price": 35999,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Vijaysales.com/Seller-Logo.png",
-          "url": "https://www.croma.com/realme-gt-6-5g-8gb-ram-256gb-fluid-silver-/p/307769"
+          "url": "https://www.vijaysales.com/p/230567/realme-gt-6-5g-dual-sim-smartphone-8gb-ram-256gb-storage-6-78-inch-120-hz-display-snapdragon-8s-gen-3-chipset-fluid-silver"
         }
       ]
     },
@@ -201,7 +195,7 @@
         },
         {
           "platform": "Flipkart",
-          "price": 54999,
+          "price": 57250,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/iqoo-13-5g-legend-256-gb/p/itmd2b145cd40998?pid=MOBH78R8MYUNBAYC&lid=LSTMOBH78R8MYUNBAYCEBR6RI&marketplace=FLIPKART&q=iQOO+13+5G+%28Legend%2C+12GB+RAM%2C+256GB+Storage%29&store=tyy%2F4io&srno=s_1_4&otracker=search&otracker1=search&fm=search-autosuggest&iid=60645509-85ff-43cf-8b00-fac0a68061dc.MOBH78R8MYUNBAYC.SEARCH&ppt=pp&ppn=pp&ssid=p7oiwtlsf40000001741601470466&qH=6fcde88729baf567"
         }
@@ -237,19 +231,19 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 29994,
+          "price": 29999,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/Oppo-Reno-Pro-Sunset-Gold/dp/B0D9C5JZCT/ref=sr_1_9?crid=TG89TR6L618P&dib=eyJ2IjoiMSJ9.p23kIobolN876pCoKbc54Ln28wkkCoHBUDL7fqTnHs5Vnc7JmhphYjrcqe8B0SWkWkOzKq0H6ZSRFHvhseg38KlZt3xCvZDmxfOSP4qkQ_AVJZ036V_YY6IJrv_5OJLhTY87AkJfd-rGOLY8MgXYxx_Y7P6eDXE5zfePHEJCGMy1QKhQp_M8asAlPjXRiA2IZ4Mx_7CtZpmHdo3ccx1UU8GFRmTa0XDGrs-0ndbIhSk.nMZT32JYngAedc7Ka7cSsgyT7YXqdVmeeNt21u76h3Y&dib_tag=se&keywords=oppo+reno+8+pro+5g&nsdOptOutParam=true&qid=1741604330&sprefix=Oppo+Reno+8%2Caps%2C245&sr=8-9"
         },
         {
           "platform": "Flipkart",
-          "price": 26999,
+          "price": 36999,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/oppo-reno-12-pro-5g-sunset-gold-256-gb/p/itmed01efe011f83?pid=MOBH2AHZWGRHRJYD&lid=LSTMOBH2AHZWGRHRJYD3XCU2V&marketplace=FLIPKART&q=Oppo+Reno+12+Pro+5G+%28Sunset+Gold%2C+256+GB%29+%2812+GB+RAM%29&store=tyy%2F4io&spotlightTagId=TrendingId_tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=00d8794f-8f13-4036-b346-484a989c8b95.MOBH2AHZWGRHRJYD.SEARCH&ppt=sp&ppn=sp&ssid=6egvqj55uo0000001741604457497&qH=e7e88e5d82852cfa"
         },
         {
           "platform": "Croma",
-          "price": 34990,
+          "price": 34999,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Croma.com/Seller-Logo.png",
           "url": "https://www.croma.com/oppo-reno-12-pro-5g-12gb-ram-256gb-sunset-gold-/p/307963"
         }
@@ -264,7 +258,7 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 128900,
+          "price": 134899,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/Apple-iPhone-Pro-Max-256/dp/B0CHWV2WYK/ref=sr_1_3?crid=30LZSK185SU5Q&dib=eyJ2IjoiMSJ9.XyXDlgEjqaXZ9HVkB2sfXvlt3Hc1oE2ATHVWVy2fHW73gv0YWTDNIXhTpS2lzhrv6ejPyJBJmTZk9dIhTYNmI5EHR6I2Jf_naxOJdOi-8E0HFsEccbpWD05L4s_hHXkgD10Gno66x_03f6vi5HwGlEYxfk-Oth28RlxkJO6bzIAt8kydscF1_wAV5YsVQcOwKYW1kWsrhZVfhwYUTmdRM4qfF8Gpl-4iMMAAu5d_XDI.kDFPuGc2D6WEAwJsgU9l7V4KwGvBuXLvLEOtJDPnAvw&dib_tag=se&keywords=Apple%2BiPhone%2B15%2BPro%2BMax%2B256%2BGB%2C%2BBlack%2BTitanium&nsdOptOutParam=true&qid=1741606679&sprefix=apple%2Biphone%2B15%2Bpro%2Bmax%2B256%2Bgb%2C%2Bblack%2Btitanium%2Caps%2C322&sr=8-3&th=1"
         },
@@ -297,25 +291,25 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 32999,
+          "price": 33999,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/Samsung-Galaxy-Awesome-White-Intelligence/dp/B0DYDQTMY5/ref=sr_1_1_sspa?crid=10SBH78IKQ4J3&dib=eyJ2IjoiMSJ9.xC32gMwMTMVNEPjUtb-YG21p1fqReZqNexjuH_k_0ZJli63PD7HHz2-Q-InyViDObv_-0RRxbtQb4wAbAqrC-XOJS6IlknDU_kyqz6LzjxsG2cby7KBdqckK7uc_z7STNrnCc_d1LsHUBoFSjaK56OM1bVhAFaVtEyiEaAMrcsDNHPYehbufqWB6kS6lgpILvT5_UjOAN0aJ1gCHIYSw_J11E-QhsNTrWXGsDUZX8Ec.mSwVGjzxhMKlDOlRyiuy-wS6MGK2BnSysJI2ySDUs0c&dib_tag=se&keywords=Samsung%2BGalaxy%2BA54&nsdOptOutParam=true&qid=1741686207&sprefix=samsung%2Bgalaxy%2Ba54%2Caps%2C205&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
         },
         {
           "platform": "Flipkart",
-          "price": 32999,
+          "price": 33999,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/samsung-galaxy-a36-5g-awesome-white-256-gb/p/itm2f14454f7dc29?pid=MOBH9RNGWSX2XDZX&lid=LSTMOBH9RNGWSX2XDZXV93ZMW&marketplace=FLIPKART&q=Samsung+Galaxy+A36+5G+%28Awesome+White%2C+8GB%2C+256GB%29&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=77e8ed15-e2c3-4cbf-becb-88b3504192f7.MOBH9RNGWSX2XDZX.SEARCH&ppt=sp&ppn=sp&ssid=yvq9mur6nk0000001741686278450&qH=b841d1a33636570e"
         },
         {
           "platform": "Croma",
-          "price": 32999,
+          "price": 30990,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Croma.com/Seller-Logo.png",
           "url": "https://www.croma.com/samsung-galaxy-a36-5g-8gb-ram-128gb-awesome-white-/p/314458"
         },
         {
           "platform": "Vijay Sales",
-          "price": 32999,
+          "price": 33999,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Vijaysales.com/Seller-Logo.png",
           "url": "https://www.vijaysales.com/p/P238286/238292/samsung-galaxy-a36-5g-8gb-ram-256gb-storage-awesome-white"
         }
@@ -336,19 +330,19 @@
         },
         {
           "platform": "Flipkart",
-          "price": 69999,
+          "price": 74900,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/apple-iphone-16-ultramarine-128-gb/p/itmcc210cae43fba?pid=MOBH4DQFYZT6EH2F&lid=LSTMOBH4DQFYZT6EH2FP6PUJU&affid=salescueli&affExtParam1=20250311cl5qs1n71pk8&affExtParam2=21928"
         },
         {
           "platform": "Croma",
-          "price": 74500,
+          "price": 74900,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Croma.com/Seller-Logo.png",
           "url": "https://www.croma.com/apple-iphone-16-128gb-ultramarine-/p/309694"
         },
         {
           "platform": "Vijay Sales",
-          "price": 71900,
+          "price": 73490,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Vijaysales.com/Seller-Logo.png",
           "url": "https://www.vijaysales.com/p/P232288/232288/apple-iphone-16-128gb-storage-ultramarine"
         }
@@ -363,13 +357,13 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 24790,
+          "price": 25999,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/OnePlus-Misty-Green-128GB-Storage/dp/B0C7V7VH6Q/ref=sr_1_1?crid=1PJ3D6LP4P4E7&dib=eyJ2IjoiMSJ9.yxu-J8K01Kwqy2L1hyS_b8dkCCwqqc21rnidClNBRfhRA7W1ql1ku6ph9f3Dip2XCmwU72sS5eUkEl8YyTvpbptgthu6jpOerc827s8E7K5zaDf6iZmL6O1HLJ2E-hEkjgRJ9deb5SQl0dN1Kh99wpoQY2OV5n0IgLoXT-l1VtYjBQIPDnrAGnPqbjl2Q3cpNEFh40m7tuljxaEDC4SIXfW-RRbn-0Gd1sevPvmtdTQ.Obhd6S90_8hKVjQMjvIDExylPhzrmkgn1lUOTZ8WdoQ&dib_tag=se&keywords=oneplus+nord+3+5g&qid=1741687012&sprefix=OnePlus+Nord+%2Caps%2C212&sr=8-1"
         },
         {
           "platform": "Flipkart",
-          "price": 21990,
+          "price": 24999,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/oneplus-nord-3-5g-misty-green-128-gb/p/itm5fc87afce35dc?pid=MOBGRKA2GBGGS6QZ&lid=LSTMOBGRKA2GBGGS6QZUHANWC&marketplace=FLIPKART&q=OnePlus+Nord+3+5G+%28Misty+Green%2C+8GB+RAM%2C+128GB+Storage%29&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=a276f44a-64a3-43f3-a8a9-135ebd09ad7e.MOBGRKA2GBGGS6QZ.SEARCH&ppt=sp&ppn=sp&ssid=r4jlq23d340000001741687096475&qH=72e86f6a8f0be536"
         },
@@ -390,19 +384,19 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 25999,
+          "price": 23500,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/Nothing-Phone-White-256GB-Storage/dp/B0CX6XB653/ref=sr_1_2?crid=1U89RH9TA87D6&dib=eyJ2IjoiMSJ9.W-fyUFehyO09k_QnPH4Gmj5I87KthfBCUN0eocal8y__6rq-WZbw6a9nGXJCRZIK_UMiJLNyhhRC1DHj-qSp4FkoVttfY6Rwx-Rj52zxA5Fzsmq_prVfULZBmGHITvrM4woqIB07srGZhyV8Eb1ICPw7nzpFyx6PRDLv5UmYzlkYtm_Umdb_udJ8mfNsKwSy8ZIKqup21cKxNitqPdTw66a2QSAGrIayVtCi9ySGjHE.NxUhxMRSEU2RQ1VyVTMSlnjGYjn7Vmd-DIWv7KRdPOQ&dib_tag=se&keywords=Google+Pixel+8A+5G+%288GB+RAM%2C+256GB+Storage%29+Obsidian&nsdOptOutParam=true&qid=1741687370&sprefix=google+pixel+8a+5g+8gb+ram%2C+256gb+storage+obsidian%2Caps%2C225&sr=8-2"
         },
         {
           "platform": "Flipkart",
-          "price": 25999,
+          "price": 999,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/nothing-phone-2a-5g-white-256-gb/p/itm85c6bca5edadc?pid=MOBGVMQS9NC2DH2P&lid=LSTMOBGVMQS9NC2DH2PC9VIBX&marketplace=FLIPKART&q=Nothing+Phone+2a+5G+%28White%2C+8GB+RAM%2C+256GB+Storage%29&store=tyy%2F4io&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=d5890ac7-2386-4d0e-98d9-834c91cea782.MOBGVMQS9NC2DH2P.SEARCH&ppt=sp&ppn=sp&ssid=8zfq6qtqe80000001741689839161&qH=ffc614ae45bc5d39"
         },
         {
           "platform": "Vijay Sales",
-          "price": 25999,
+          "price": 23999,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Vijaysales.com/Seller-Logo.png",
           "url": "https://www.vijaysales.com/p/P227123/227122/nothing-phone-2a-5g-dual-sim-smartphone-8gb-ram-256gb-storage-6-7-inch-120-hz-amoled-display-mediatek-dimensity-7200-pro-white"
         }
@@ -419,7 +413,7 @@
           "platform": "Amazon",
           "price": 21999,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
-          "url": "https://www.xerve.in/prices/buy-oppo-f25-pro-5g-lava-red-8gb-ram-256gb-storage-with-no-cost-emi-additional-exchange-offers/xmnkync7glfqi"
+          "url": "https://www.amazon.in/Oppo-Storage-Additional-Exchange-Offers/dp/B0CVKZK94Z/ref=sr_1_1?crid=1JY5PRVS2D7UV&dib=eyJ2IjoiMSJ9.DbgwA8QwqdeIfJ_GaLqFvIs5elA7OFWfVki-Gs2ruGewvs0m-nclJqyVO7uY-i-YIDGNPIwIghTQY9L94y2mV4lKymkls5gqqzWjetwsgorDwa9NDlIkOzbMooDxoCf7e4irMyicMgnNkZecT6XwKB3YU4H1GH2ahMSg_KmjK4CUfZCI61sAY626JsPM0BfNlKmKTOFdjV66F_X7kWNAga8nGWBTtJ1L3BxFhwyeQtE.pMwXKaTwkKvEFiDw9K8wEQ4bc5x7KFrCIjB6IHcrDBA&dib_tag=se&keywords=Oppo%2BF25%2BPro%2B5G%2B(Lava%2BRed%2C%2B8Gb%2BRam%2C%2B256Gb%2BStorage)&nsdOptOutParam=true&qid=1745814400&sprefix=oppo%2Bf25%2Bpro%2B5g%2Blava%2Bred%2C%2B8gb%2Bram%2C%2B256gb%2Bstorage%2B%2Caps%2C373&sr=8-1&th=1"
         },
         {
           "platform": "Flipkart",
@@ -444,7 +438,7 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 30875,
+          "price": 31635,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/realme-Periscope-Snapdragon-Processor-SUPERVOOC/dp/B0DT7652CZ/ref=sr_1_1?crid=2NUAV7NZFA2CE&dib=eyJ2IjoiMSJ9.xRwtUIpNLdtrRCWIMMQAYl9KfPtepvnMPhlHewRaMSq64k7rRjcuJ1v8y1UFBdpNimhpUCThXbKMK3SAcc7mCLrd513pbf6layB5ddBAKvVlKH-bUJfYSruCdI3T7v5UsuyRpsClHxg8eAXcbgVHabcOFQigtBqNH456wIrWFCVEDfKvYIn-ev_rPDftheWPapdUc47Lgc7OyecJUTF7N0UYTD4BmGZelWIxWvSUfx0.N7VG-esXw3flkou5O6IGg_YTQFlZ7HjRXl5xzpg3CwU&dib_tag=se&keywords=realme+14+pro+plus&nsdOptOutParam=true&qid=1741756294&sprefix=realme%2Caps%2C213&sr=8-1"
         },
@@ -456,13 +450,13 @@
         },
         {
           "platform": "Croma",
-          "price": 31499,
+          "price": 31999,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Croma.com/Seller-Logo.png",
           "url": "https://www.croma.com/realme-14-pro-plus-5g-8gb-ram-256gb-suede-grey-/p/313018"
         },
         {
           "platform": "Vijay Sales",
-          "price": 30989,
+          "price": 31999,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Vijaysales.com/Seller-Logo.png",
           "url": "https://www.vijaysales.com/p/236912/realme-14-pro-plus-8gb-ram-256gb-storage-suede-grey"
         }
@@ -477,13 +471,13 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 41599,
+          "price": 40999,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/Vivo-12GB-256GB-Cosmic-Black/dp/B07WDKCLCB/ref=pd_rhf_gw_s_pd_sbs_rvi_d_sccl_1_11/262-1623372-3362806?pd_rd_w=KFMa2&content-id=amzn1.sym.ed04a9b6-f1e8-467f-8e81-e050db1b5151&pf_rd_p=ed04a9b6-f1e8-467f-8e81-e050db1b5151&pf_rd_r=7QZ7JHPG16D0S1XW9FS4&pd_rd_wg=KNL7u&pd_rd_r=48a2fa98-e7a6-471f-b5d7-29f7075dd51b&pd_rd_i=B07WDKCLCB&psc=1"
         },
         {
           "platform": "Flipkart",
-          "price": 46498,
+          "price": 79999,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/vivo-x80-pro-cosmic-black-256-gb/p/itm91e0e7dd2d74d?pid=MOBGE89YSMWJV5PZ&lid=LSTMOBGE89YSMWJV5PZYUJIYF&marketplace=FLIPKART&q=Vivo+X80+pro+12GB+RAM+256GB+Cosmic+Black&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=7ab3a064-9b93-4825-9604-45508cbbea86.MOBGE89YSMWJV5PZ.SEARCH&ppt=sp&ppn=sp&ssid=3jtiec54w00000001741756754907&qH=a16c5fb5e335c727"
         }
@@ -504,7 +498,7 @@
         },
         {
           "platform": "Flipkart",
-          "price": 17345,
+          "price": 16398,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/oneplus-nord-ce4-lite-5g-super-silver-128-gb/p/itm8fd5fdf300955?pid=MOBH25ZDPHNF38XJ&lid=LSTMOBH25ZDPHNF38XJWBOSKG&marketplace=FLIPKART&q=OnePlus+Nord+CE4+Lite+5G+%28Super+Silver%2C+8GB+RAM%2C+128GB+Storage%29&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=19341086-5e39-4b46-ad53-9a5110d7d7dc.MOBH25ZDPHNF38XJ.SEARCH&ppt=sp&ppn=sp&ssid=embabhuouo0000001741771784861&qH=bfb74bd2f4eed95a"
         },
@@ -531,7 +525,7 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 22990,
+          "price": 22999,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/POCO-Titanium-8GB-RAM-256GB/dp/B0D5HHW6RQ?crid=C4698PBI31L9&dib=eyJ2IjoiMSJ9.KV1e3MHrX1EMgGjRXwaxQ6EityzlThL6DO4_1RguaNGVTqpd3Btu5xmJnrzCaAZUsrYnMM1bg7RGCg1oDqVfsUWgtDXCYqkqpPBE30XOe4wnnPMIK37gJ4T439zDh8Zh4wXDnWfsWHiOzBks54anuGEL1G6svtVVa6inTen-SqC-MNm3w7yMc92QX8ytb2MjESDfU7Ial7mEN7mlTkqqKUCNssU04tane66m6BTi7AelKPjsYS_-6lnU5lyCslqH_W2w8RLUmmK93zawcwKiLqoFFNNavEuutDI4z9X_AJneC1jkzs7629uYDI9DymgjQkFggINN6McGcL2R7iKeodE_vZlr0pQreRYZcWDhGJw.mRtvpHiEe8ccdB9KFpZUGUTbOiAlT9YbkukNIbk-Mwo&dib_tag=se&keywords=POCO+F6+5G+%28Titanium%2C+256+GB%29+%288+GB+RAM%29&nsdOptOutParam=true&qid=1741772397&s=electronics&sprefix=poco+f6+5g+titanium%2C+256+gb+8+gb+ram+%2Celectronics%2C239&sr=1-1"
         },
@@ -552,7 +546,7 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 31365,
+          "price": 34432,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/Motorola-Edge-125W-Charger-Lavender/dp/B0D37WRCP1?crid=1LSAN9UGJ3P3Q&dib=eyJ2IjoiMSJ9.lg-yguHsOEHJkobnAFift9Fk4y1fnMNdX7-B6TpSqgKMUkQS8WLcjrI_DWaO4BrHHjCWcEM8uU-9JJR3kyEXcb03ocl9QW_zubyRCVHN3fUP7jFRaoB6_XIxn8193LpHmAzY89YVXjUbCL2GQN850dIMMCQ6FlpRNpUjdBInilz3n0h6qZxLG7FSXIkXs_fzXJ28i8sMOan2PsFrZEgoUFdBVAXR69WxqsRYHiKFkaLjXWp-eXeKMnRigS2tHqBx42yFhDL_p0qLqgKqPFfJIsz41UnPxwZ8FyniKrkd5D6K8bDJwDx0Y-qJufxvRpt7JwcO8EmGjg2QhlYzlQC_Z_tZ_zqkGF6h8vTl4wmnxMQ.cSbr9H0GzuvJ2MENu3s45_atODJahWERj_pIeWWx6M8&dib_tag=se&keywords=moto+edge+50+fusion+5g&nsdOptOutParam=true&qid=1741772562&s=electronics&sprefix=mot%2Celectronics%2C261&sr=1-7"
         },
@@ -602,8 +596,8 @@
       "prices": [
         {
           "platform": "Jio Mart",
-          "price": 799,
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
+          "price": 1049,
+          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Jiomart.com/Seller-Logo.png",
           "url": "https://www.jiomart.com/p/electronics/boat-airdopes-131-truly-wireless-bluetooth-earbuds-with-mic-650-mah-charging-case-active-black/590960994?"
         },
         {
@@ -629,13 +623,13 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 1299,
+          "price": 1399,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/Oneplus-Bluetooth-Wireless-Earphones-Bombastic/dp/B0B3MNYGTW?crid=3UOEU0XFINN66&dib=eyJ2IjoiMSJ9.svg1Cu4YbLmSiqpD7vIGOECCDlC7Z58qPa5KCl3HujjtfQCk5hyUkF_rEBtnDkLp5bJ5gwTUuwIFRqI_tX4gVJi5SzU92yRUvRU_0omD1VyFQCKlGIWdwoM2375wvGcMvNVONafhHQzZg7-xoYnIug9O6U6Ve8gLG3LLhRcz-H4RB1iygY9eoM3NC5xZ6CQ6GT6QY3cBQj4Cb7ecU4HY-Ks1ATB5HWKaB_DQStR6zgA.iWC0cn5bE8Gq8N57k7JZySUTk3UvBohRd1puU-kyNKU&dib_tag=se&keywords=OnePlus%2BBullets%2BWireless%2BZ2%2BBluetooth%2B(Acoustic%2BRed%2C%2BIn%2Bthe%2BEar)&nsdOptOutParam=true&qid=1741841995&sprefix=oneplus%2Bbullets%2Bwireless%2Bz2%2Bbluetooth%2Bacoustic%2Bred%2C%2Bin%2Bthe%2Bear%2B%2Caps%2C207&sr=8-3&th=1"
         },
         {
           "platform": "Flipkart",
-          "price": 1299,
+          "price": 1599,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/oneplus-bullets-wireless-z2-bluetooth/p/itm37712330f2d6f?pid=ACCGF4JZHYTERVTY&lid=LSTACCGF4JZHYTERVTYGY0TJT&affid=salescueli&affExtParam1=20250313cl3ykls5sf6y&affExtParam2=21928"
         },
@@ -656,13 +650,13 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 1599,
+          "price": 1699,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/ZEBRONICS-Envy-Headphone-Detachable-Black/dp/B0DJSQ726J?ascsubtag=20250313clwzf3xtfigx&dib=eyJ2IjoiMSJ9.2A7htz4mnlv80lICTodd_kF_iSbZ7JlPiVL2DrjnVVGqtRmEl81AIoVI_L2HCactRmx1K4YYBqqncYwR-kQUTAM9H5LlKkt2vI8pGo6I-gk54puz9JJfs4yMVKv6Z6TLt5O5zhh9ErZQ09H8gTlDzOX8UEIsYko7iMmoqHMdQbdQM2AnV1AR-0p8vilMxqvgtOVtPzQXmqeVY5NBWUHfyfard0YkGaELnJ-0Nu-u9mg.ULfvvbf5mQZfiPgUuKxbjgy5Bythpc_Yij5pV2Y0u40&dib_tag=se&keywords=zebronics%2Benvy%2B2%2Bzeb-whp%2B5%2Bwireless%2Bgaming%2Bover-ear%2C%2B65h%2Bplayback%2C&nsdOptOutParam=true&qid=1741842103&sr=8-2&th=1"
         },
         {
           "platform": "Flipkart",
-          "price": 1599,
+          "price": 1699,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/zebronics-envy-2-zeb-whp-5-wireless-gaming-over-ear-65h-playback-detatchable-mic-bluetooth/p/itm8c86253279850?pid=ACCH5JQKU6MZESCD&lid=LSTACCH5JQKU6MZESCDTPRGVH&affid=salescueli&affExtParam1=20250313cl837futt3al&affExtParam2=21928"
         }
@@ -677,13 +671,13 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 2499,
+          "price": 1799,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/Noise-Launched-Wireless-Metallic-Playtime/dp/B0D6NC9QKV/?creative=165953&creativeASIN=&tag=cuelinkss23220-21&ascsubtag=20250313cl1lzkhlpnjx&th=1"
         },
         {
           "platform": "Flipkart",
-          "price": 2499,
+          "price": 1799,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/noise-air-buds-pro-4-40db-hybrid-anc-50hr-playtime-spatial-audio-dual-pairing-bluetooth/p/itm0a0f443285c01?pid=ACCH2EA6KADM46HZ&lid=LSTACCH2EA6KADM46HZ3J66MZ&affid=salescueli&affExtParam1=20250313clnytfmnigkj&affExtParam2=21928"
         },
@@ -704,48 +698,15 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 20989,
+          "price": 22948,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/Sony-WH-1000XM4-Cancelling-Headphones-Bluetooth/dp/B0863TXGM3/?creative=165953&creativeASIN=&tag=cuelinkss23220-21&ascsubtag=20250313clf83a5vry3j&th=1"
         },
         {
           "platform": "Flipkart",
-          "price": 20990,
+          "price": 22948,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/sony-wh-1000xm4-bluetooth/p/itm9f84f49ad6ac8?pid=ACCGCVGXQGFUNXTN&lid=LSTACCGCVGXQGFUNXTNMNI87P&affid=salescueli&affExtParam1=20250313clu984v9qq1o&affExtParam2=21928"
-        }
-      ]
-    },
-    {
-      "id": 27,
-      "category": "electronics",
-      "subCategory": "headphones",
-      "name": "Marshall Minor Iv True Wireless In-Ear Earbuds",
-      "image": "https://m.media-amazon.com/images/I/51I80en3n0L._SX522_.jpg",
-      "prices": [
-        {
-          "platform": "Amazon",
-          "price": 11999,
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
-          "url": "https://www.amazon.in/Marshall-Wireless-Playtime-Water-Resistant-Charging/dp/B0D1VH7WMX/?creative=165953&creativeASIN=&tag=cuelinkss23220-21&ascsubtag=20250313claklqrkwuqy&th=1"
-        },
-        {
-          "platform": "Flipkart",
-          "price": 11999,
-          "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
-          "url": "https://www.flipkart.com/marshall-minor-iv-bluetooth/p/itm239dc09d51770?pid=ACCHFG4RMFSD4TVJ&lid=LSTACCHFG4RMFSD4TVJUKBV6Z&affExtParam1=W_11460_1741856700-&affExtParam2=flip-"
-        },
-        {
-          "platform": "Croma",
-          "price": 11999,
-          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Croma.com/Seller-Logo.png",
-          "url": "https://www.croma.com/marshall-minor-iv-tws-earbuds-ipx4-water-resistant-30-hours-playtime-black-/p/307535?utm_source=cuelinks&utm_medium=affiliate&utm_campaign=summersale&utm_term=network&utm_content=20250313clv8shtee18j"
-        },
-        {
-          "platform": "Vijay Sales",
-          "price": 11999,
-          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Vijaysales.com/Seller-Logo.png",
-          "url": "https://www.vijaysales.com/p/230401/marshall-minor-iv-true-wireless-in-ear-earbuds-with-12-mm-drivers-ipx4-in-earbuds-upto-30-hours-of-wireless-playtime-black"
         }
       ]
     },
@@ -758,13 +719,13 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 10460,
+          "price": 10980,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/Samsung-Powered-Real-Time-Interpreter-Battery/dp/B0D7M34JXY/?creative=165953&creativeASIN=&tag=cuelinkss23220-21&ascsubtag=20250313clf2e836ubrp&th=1"
         },
         {
           "platform": "Flipkart",
-          "price": 12718,
+          "price": 10985,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/samsung-galaxy-buds-3-bluetooth/p/itma79f55056b77f?pid=ACCH28ZAJSVH96G2&lid=LSTACCH28ZAJSVH96G2UFAUEQ&affExtParam1=W_10093_1741856860-&affExtParam2=flip-"
         },
@@ -791,7 +752,7 @@
         },
         {
           "platform": "Flipkart",
-          "price": 12992,
+          "price": 12995,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/samsung-galaxy-buds2-pro-sm-r510nzwains-bluetooth/p/itm72ba67178d40c?pid=ACCGS8H62GHUJ5YZ&lid=LSTACCGS8H62GHUJ5YZ1IAEEP&affExtParam1=W_18141_1741857129-&affExtParam2=flip-"
         }
@@ -833,19 +794,19 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 1899,
+          "price": 2199,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/realme-Wireless-Earbuds-Spatial-Charging/dp/B0DBGP48NW/?creative=165953&creativeASIN=&tag=cuelinkss23220-21&ascsubtag=20250313clveojfwzpq9&th=1"
         },
         {
           "platform": "Flipkart",
-          "price": 1999,
+          "price": 2199,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/realme-buds-t310-12-4mm-driver-46db-anc-spatial-audio-upto-40-hours-playback-bluetooth/p/itmfac7ac8f4e369?pid=ACCH2PGXGP4BV2JF&lid=LSTACCH2PGXGP4BV2JFSD12ER&affid=admitad&affExtParam1=550129&affExtParam2=731098015a31f18162d6e0166c59c8f1"
         },
         {
           "platform": "Croma",
-          "price": 2499,
+          "price": 2199,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Croma.com/Seller-Logo.png",
           "url": "https://www.croma.com/realme-t310-tws-earbuds-with-hybrid-noise-cancellation-ip55-water-dust-resistance-40-hours-playback-vibrant-black-/p/308611?utm_source=cuelinks&utm_medium=affiliate&utm_campaign=summersale&utm_term=network&utm_content=20250313cln2nbd5jnwk"
         }
@@ -860,13 +821,13 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 999,
+          "price": 1099,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/realme-Buds-Wireless-Bluetooth-Resistannt/dp/B0D3HT2S1M/?creative=165953&creativeASIN=&tag=cuelinkss23220-21&ascsubtag=20250313cl5glud38zr3&th=1"
         },
         {
           "platform": "Flipkart",
-          "price": 999,
+          "price": 1299,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/realme-buds-wireless-3-neo-13-4mm-driver-32-hrs-playback-dual-device-connection-bluetooth/p/itmfacc0c48b9799?pid=ACCHYRHPDUU2HUGG&lid=LSTACCHYRHPDUU2HUGGQ0UPX7&affid=admitad&affExtParam1=550129&affExtParam2=08ce1288a3405c673f5319a2de326db4"
         },
@@ -908,19 +869,19 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 1099,
+          "price": 1449,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/realme-Bluetooth-Wireless-Playback-Charging/dp/B0DFWL8F5C/?creative=165953&creativeASIN=&tag=cuelinkss23220-21&ascsubtag=20250313cll4mkm65dln&th=1"
         },
         {
           "platform": "Flipkart",
-          "price": 1099,
+          "price": 1499,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/realme-buds-t110-ai-enc-calls-upto-38-hours-playback-fast-charging-bluetooth/p/itma5620a39a816e?pid=ACCGZN9AK6UXB8TR&lid=LSTACCGZN9AK6UXB8TRTPXZR5&affid=admitad&affExtParam1=550129&affExtParam2=0d051004c9ea69065f965c62d739070e"
         },
         {
           "platform": "Croma",
-          "price": 1199,
+          "price": 1499,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Croma.com/Seller-Logo.png",
           "url": "https://www.croma.com/realme-buds-t110-rma2306-tws-earbuds-with-ai-enc-noise-cancellation-ipx5-water-resistant-38-hours-playback-punk-black-/p/306336"
         }
@@ -968,7 +929,7 @@
         },
         {
           "platform": "Croma",
-          "price": 584,
+          "price": 5499,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Croma.com/Seller-Logo.png",
           "url": "https://www.croma.com/jbl-tune-flex-jbltflexblu-tws-earbuds-with-active-noise-cancellation-ipx4-water-resistant-pure-bass-sound-blue-/p/273416?utm_source=cuelinks&utm_medium=affiliate&utm_campaign=summersale&utm_term=network&utm_content=20250313clxzhb16k9hw"
         }
@@ -1039,13 +1000,13 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 64990,
+          "price": 60990,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/Apple-MacBook-Chip-13-inch-256GB/dp/B08N5W4NNB/?creative=165953&creativeASIN=&tag=cuelinkss23220-21&ascsubtag=20250313clfsasd6w3va&th=1"
         },
         {
           "platform": "Flipkart",
-          "price": 82340,
+          "price": 66990,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/apple-2020-macbook-air-m1-8-gb-256-gb-ssd-mac-os-big-sur-mgn63hn-a/p/itmec35accf62a2f?pid=COMFXEKMGNHZYFH9&lid=LSTCOMFXEKMGNHZYFH9P56X45&affid=admitad&affExtParam1=550129&affExtParam2=d431285f2e65936ff109cc7ea0707071"
         },
@@ -1066,7 +1027,7 @@
       "prices": [
         {
           "platform": "Flipkart",
-          "price": 98390,
+          "price": 96949,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/apple-macbook-air-m3-8-gb-256-gb-ssd-macos-sonoma-mrxn3hn-a/p/itm45bd67b7758ad?pid=COMGYP5GK8FRYSPA&lid=LSTCOMGYP5GK8FRYSPAJKPLUO&affid=admitad&affExtParam1=550129&affExtParam2=be3361e914ae607b7e96ef5855f9e7c9"
         },
@@ -1083,17 +1044,11 @@
       "category": "electronics",
       "subCategory": "laptopes",
       "name": "Apple MacBook Air 2022 (M2, 13.6 inch, 8GB, 512GB, macOS, Silver)",
-      "image": "https://m.media-amazon.com/images/I/71eXNIDUGjL._SX679_.jpg",
+      "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1715935356/Croma%20Assets/Computers%20Peripherals/Laptop/Images/256600_0_wefmy4.png?tr=w-640",
       "prices": [
         {
-          "platform": "Amazon",
-          "price": 109999,
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
-          "url": ""
-        },
-        {
           "platform": "Flipkart",
-          "price": 102990,
+          "price": 92999,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/apple-macbook-air-m2-8-gb-512-gb-ssd-mac-os-monterey-mly03hn-a/p/itm6533ea968a81e?pid=COMGFB2GTM7MMJYN&lid=LSTCOMGFB2GTM7MMJYNIHQHMG&affid=admitad&affExtParam1=550129&affExtParam2=941dc7ed96cc5dbaac5242f6353b49e0"
         },
@@ -1114,7 +1069,7 @@
       "prices": [
         {
           "platform": "Flipkart",
-          "price": 99990,
+          "price": 106999,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/apple-macbook-air-m3-8-gb-512-gb-ssd-macos-sonoma-mrxp3hn-a/p/itm45bd67b7758ad?pid=COMGYP5GNHJNKQKF&lid=LSTCOMGYP5GNHJNKQKFWVSO3U&affid=admitad&affExtParam1=550129&affExtParam2=1c95deb2359ca206f5d41604be74b08e"
         },
@@ -1141,13 +1096,13 @@
         },
         {
           "platform": "Flipkart",
-          "price": 72990,
+          "price": 76990,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/hp-victus-ai-powered-amd-ryzen-7-octa-core-7840hs-16-gb-512-gb-ssd-windows-11-home-6-graphics-nvidia-geforce-rtx-3050-16-s0095ax-gaming-laptop/p/itm64ae9ddc2dec6?pid=COMGS2XZGZHEJEZG&lid=LSTCOMGS2XZGZHEJEZGXWFBYW&affid=admitad&affExtParam1=550129&affExtParam2=388f76c7ae99d91b1800e5937beb8b5a"
         },
         {
           "platform": "Vijay Sales",
-          "price": 79000,
+          "price": 77490,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Vijaysales.com/Seller-Logo.png",
           "url": "https://www.vijaysales.com/p/222562/hp-victus-gaming-laptop-amd-ryzen-7-16-gb-ram-512-gb-ssd-16-1-inches-40-9-cm-6gb-nvidia-geforce-graphics-windows-11-ms-office-16-s0095ax"
         }
@@ -1162,7 +1117,7 @@
       "prices": [
         {
           "platform": "Flipkart",
-          "price": 37650,
+          "price": 36923,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/hp-amd-ryzen-5-hexa-core-5500u-8-gb-512-gb-ssd-windows-11-home-15s-eq2144au-thin-light-laptop/p/itmd57b41ed8750a?pid=COMGBH9JDPVGD8BH&lid=LSTCOMGBH9JDPVGD8BHIZPQIL&affid=admitad&affExtParam1=550129&affExtParam2=d679bd2ec50f233ba710d244fd3d6495"
         },
@@ -1210,13 +1165,13 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 53990,
+          "price": 54990,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/ASUS-Vivobook-40-64cm-WUXGA-X1605ZAC-MB542WS/dp/B0D7HM2846/?creative=165953&creativeASIN=&tag=cuelinkss23220-21&ascsubtag=20250315cl4lq4stsorz"
         },
         {
           "platform": "Flipkart",
-          "price": 53990,
+          "price": 54990,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/asus-intel-core-i5-12th-gen-12500h-16-gb-512-gb-ssd-windows-11-home-x1605zac-mb542ws-thin-light-laptop/p/itmf1d631f2db825?pid=COMH274VSRH7GHMN&lid=LSTCOMH274VSRH7GHMNQJ17EJ&affid=salescueli&affExtParam1=20250315clu8v664qea5&affExtParam2=21928"
         }
@@ -1231,25 +1186,25 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 49990,
+          "price": 54999,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/Lenovo-IdeaPad-i5-12450H-Windows-83ER00KPIN/dp/B0DR96PF63/?creative=165953&creativeASIN=&tag=cuelinkss23220-21&ascsubtag=20250315clxk3hetl3jg&th=1"
         },
         {
           "platform": "Flipkart",
-          "price": 51999,
+          "price": 54499,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/lenovo-ideapad-slim-3-backlit-intel-core-i5-12th-gen-12450h-16-gb-512-gb-ssd-windows-11-home-15iah8-thin-light-laptop/p/itm76f0e5d975817?pid=COMGVQ2Y3ENU2RNV&lid=LSTCOMGVQ2Y3ENU2RNV6NW176&affid=salescueli&affExtParam1=20250315cljbh6fq45xi&affExtParam2=21928"
         },
         {
           "platform": "Croma",
-          "price": 53390,
+          "price": 55390,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Croma.com/Seller-Logo.png",
           "url": "https://www.croma.com/lenovo-ideapad-slim-3-15iah8-intel-core-i5-12th-gen-laptop-16gb-512gb-ssd-windows-11-home-15-6-inch-full-hd-ips-display-ms-office-2021-arctic-grey-1-62-kg-/p/303421?utm_source=cuelinks&utm_medium=affiliate&utm_campaign=summersale&utm_term=network&utm_content=20250315cleaqhwb45er"
         },
         {
           "platform": "Vijay Sales",
-          "price": 55190,
+          "price": 55490,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Vijaysales.com/Seller-Logo.png",
           "url": "https://www.vijaysales.com/p/225451/lenovo-ideapad-slim-3-12th-gen-core-i5-16gb-ram-512gb-ssd-15-6-inch-39-62cm-intel-uhd-graphics-win-11-office-83er008hin"
         }
@@ -1264,7 +1219,7 @@
       "prices": [
         {
           "platform": "Flipkart",
-          "price": 64094,
+          "price": 52850,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/hp-pavilion-amd-ryzen-5-hexa-core-5500u-16-gb-1-tb-ssd-windows-11-home-15-eh1047au-thin-light-laptop/p/itmde20cd0a415cb?pid=COMGWSZEHA8Z3ZGS&lid=LSTCOMGWSZEHA8Z3ZGSHN0OEX&affid=salescueli&affExtParam1=20250315cl14655j7rjn&affExtParam2=21928"
         },
@@ -1291,13 +1246,13 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 104890,
+          "price": 112990,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/Samsung-40-62cm-Dynamic-Graphite-NP960XFG-KC1IN/dp/B0BSH5Q4QQ/?creative=165953&creativeASIN=&tag=cuelinkss23220-21&ascsubtag=20250315cl9ef28q9e83"
         },
         {
           "platform": "Flipkart",
-          "price": 134990,
+          "price": 116999,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/samsung-galaxy-book3-pro-evo-amoled-intel-core-i7-13th-gen-1360p-16-gb-512-gb-ssd-windows-11-home-np960xfg-kc1in-thin-light-laptop/p/itm5b9019e98c7e8?pid=COMGPXF2ZG7FN3F5&lid=LSTCOMGPXF2ZG7FN3F58NFTP5&affid=salescueli&affExtParam1=20250315clg6vemf3gjx&affExtParam2=21928"
         }
@@ -1312,13 +1267,13 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 36500,
+          "price": 36375,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/Dell-Inspiron-i3-1215-39-62Cms-D560915WIN9S/dp/B0BH4T1D8X/?creative=165953&creativeASIN=&tag=cuelinkss23220-21&ascsubtag=20250315clkg8gxpxu4d&th=1"
         },
         {
           "platform": "Flipkart",
-          "price": 33999,
+          "price": 34990,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/dell-intel-core-i3-12th-gen-1215u-8-gb-512-gb-ssd-windows-11-home-inspiron-3520-thin-light-laptop/p/itmbb62f4fcc7145?pid=COMGUY2YPKP7NC2P&lid=LSTCOMGUY2YPKP7NC2PAESLXD&affid=salescueli&affExtParam1=20250315clm15ztv1f6x&affExtParam2=21928"
         },
@@ -1366,13 +1321,13 @@
         },
         {
           "platform": "Flipkart",
-          "price": 70990,
+          "price": 73990,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/dell-g15-5530-intel-core-i5-13th-gen-13450hx-8-gb-512-gb-ssd-windows-11-pro-6-graphics-nvidia-geforce-rtx-3050-120-hz-gaming-laptop/p/itmc1f7106e2ce85?pid=COMGX9ZV285C3YHD&lid=LSTCOMGX9ZV285C3YHDW8B2XA&marketplace=FLIPKART&q=Dell+Gaming+G15-5530+Laptop%2C+Intel+13th+Gen+i5-13450HX+Processor%2C+8GB+DDR5+%2B+512GB+SSD&store=6bo%2Fb5g&srno=s_1_1&otracker=search&otracker1=search&fm=organic&iid=d1d0826a-b85c-4961-9ec5-35618cc09d4a.COMGX9ZV285C3YHD.SEARCH&ppt=pp&ppn=pp&ssid=c6t4gdixpc0000001742031692846&qH=c2be05c5dd3930ed"
         },
         {
           "platform": "Vijay Sales",
-          "price": 41499,
+          "price": 81499,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Vijaysales.com/Seller-Logo.png",
           "url": "https://www.vijaysales.com/p/235152/dell-g15-5530-13th-gen-gaming-laptop-intel-core-i5-13450hx-16gb-ddr5-ram-512gb-ssd-nvidia-rtx-3050-6gb-gddr6-15-6-inch-39-62cm-fhd-120hz-display-backlit-keyboard-4-zone-rgb-win-11-ms-office-ogn55301124g01rin-5530"
         }
@@ -1387,13 +1342,13 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 47990,
+          "price": 48400,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/Dell-Inspiron-15-inch-Windows-i5-1235U/dp/B0BH4SCYQ3?pd_rd_w=WZfPR&content-id=amzn1.sym.b5387062-d66f-4264-a2b3-7498b12700ed&pf_rd_p=b5387062-d66f-4264-a2b3-7498b12700ed&pf_rd_r=0ZP6KDWDQYGYXSWS9YDJ&pd_rd_wg=w4HT8&pd_rd_r=4acfd218-e42c-4f3a-92d9-234fe77a86ad&pd_rd_i=B0BH4SCYQ3&th=1"
         },
         {
           "platform": "Flipkart",
-          "price": 35790,
+          "price": 36980,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/dell-inspiron-3520-intel-core-i3-12th-gen-1215u-8-gb-512-gb-ssd-windows-11-home-new-15-laptop-thin-light/p/itm108ece6bfe39a?pid=COMGJ75HJGFDJ6JN&lid=LSTCOMGJ75HJGFDJ6JNHHR3RD&marketplace=FLIPKART&q=Dell+Inspiron+3520+Laptop&store=6bo%2Fb5g&srno=s_1_1&otracker=search&otracker1=search&fm=organic&iid=f3008c28-4546-4baa-b9d9-1c6528cebdb6.COMGJ75HJGFDJ6JN.SEARCH&ppt=pp&ppn=pp&ssid=mzmh0epmbk0000001742032436748&qH=cff87ee0a8f82e70"
         },
@@ -1416,7 +1371,7 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 1999,
+          "price": 1799,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/Fire-Boltt-Starlight-Bluetooth-Smartwatch/dp/B0CXF3QM3Q/?creative=165953&creativeASIN=B0CXF3QM3Q&tag=cuelinkss23220-21&ascsubtag=20250315clqeoeedwnnv"
         },
@@ -1464,7 +1419,7 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 1037,
+          "price": 1299,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/boAt-Navigation-Display-Bluetooth-Emergency/dp/B0CVQG14RR/?creative=165953&creativeASIN=&tag=cuelinkss23220-21&ascsubtag=20250315clwkf7913inx&th=1"
         },
@@ -1476,7 +1431,7 @@
         },
         {
           "platform": "Croma",
-          "price": 1499,
+          "price": 1299,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Croma.com/Seller-Logo.png",
           "url": "https://www.croma.com/boat-wave-sigma-3-smartwatch-with-bluetooth-calling-51-05mm-hd-display-ip67-water-resistant-active-black-strap-/p/306572?utm_source=cuelinks&utm_medium=affiliate&utm_campaign=summersale&utm_term=network&utm_content=20250315clgw3v7kjjum"
         }
@@ -1491,7 +1446,7 @@
       "prices": [
         {
           "platform": "Flipkart",
-          "price": 3499,
+          "price": 3849,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/boat-enigma-x500-w-1-43-amoled-display-bt-calling-ultra-premium-metal-body-smartwatch/p/itm7206b82a220ce?pid=SMWGT2RAPGG87WRQ&lid=LSTSMWGT2RAPGG87WRQ6NTCGB&affid=salescueli&affExtParam1=20250315clwdmeef26mk&affExtParam2=21928"
         },
@@ -1518,7 +1473,7 @@
       "prices": [
         {
           "platform": "Flipkart",
-          "price": 2999,
+          "price": 3299,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/boat-enigma-switch-w-switchable-case-1-39-hd-display-bt-calling-premium-design-smartwatch/p/itmcd5a81ab1d70c?pid=SMWGVKPKYQRC8FWZ&lid=LSTSMWGVKPKYQRC8FWZBDB5KL&affid=salescueli&affExtParam1=20250315clu6mugg9ahr&affExtParam2=21928"
         },
@@ -1620,25 +1575,25 @@
       "prices": [
         {
           "platform": "Amazon",
-          "price": 89900,
+          "price": 104900,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
           "url": "https://www.amazon.in/Apple-Cellular-Smartwatch-Titanium-Precision/dp/B0DGJCZ498?crid=WT5WOUZ6XQR3&dib=eyJ2IjoiMSJ9.hNpLOBQIhAAqaETNvj0S1G6o7GyAYjDeYQHCOKXH3D5LaB7lI8DmunfS7hfjplyLVKSOtagmdmt5GC4nis4x-VjUXS6Qnybmk-zyud0e6OMGWCILOWxbDMsnHhGd3lDuR3urlxetR1qd6revt6vkRig37CGFtugp3V0sk6jcULJ6DiYueXKLG0Ih5oGkLoWlWQIUOGk1fkthku2hPH8_-P6M6qEjLjsO2EIkLxvM8-k.t73qkYrxrRdtBHjB5OJdMGLAWUBrE9QwlYfUi4eS5WE&dib_tag=se&keywords=Apple%2BWatch%2BUltra%2B2%2BGPS%2B%2B%2BCellular%2B49mm%2BNatural%2BTitanium%2Bwith%2BNavy%2BOcean%2BBand&nsdOptOutParam=true&qid=1742036508&sprefix=apple%2Bwatch%2Bultra%2B2%2Bgps%2B%2B%2Bcellular%2B49mm%2Bnatural%2Btitanium%2Bwith%2Bnavy%2Bocean%2Bband%2Caps%2C272&sr=8-1&th=1"
         },
         {
           "platform": "Flipkart",
-          "price": 89999,
+          "price": 89900,
           "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
           "url": "https://www.flipkart.com/apple-watch-ultra-2-gps-cellular-49mm-natural-titanium-navy-ocean-band/p/itm99834d6b83bfd?pid=SMWH4JBWMVGWXWYG&lid=LSTSMWH4JBWMVGWXWYGZD793U&marketplace=FLIPKART&q=apple+watch+ultra+gps+plus+cellular%2C+49mm+titanium+case+with&store=ajy%2Fbuh&srno=s_1_1&otracker=search&fm=organic&iid=10786a81-b32b-4805-b527-90278c3a194b.SMWH4JBWMVGWXWYG.SEARCH&ppt=sp&ppn=sp&ssid=yao7ru9hog0000001742036472995&qH=6b103a67fccdc1da"
         },
         {
           "platform": "Croma",
-          "price": "89900",
+          "price": 87200,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Croma.com/Seller-Logo.png",
           "url": "https://www.croma.com/apple-watch-ultra-2-gps+cellular-with-ocean-band-49mm-retina-ltpo2-oled-display-black-titanium-case-/p/309297"
         },
         {
           "platform": "Vijay Sales",
-          "price": 85700,
+          "price": 85400,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Vijaysales.com/Seller-Logo.png",
           "url": "https://www.vijaysales.com/p/232363/apple-watch-ultra-2-gps-cellular-49mm-black-titanium-case-with-black-ocean-band"
         }
@@ -1676,27 +1631,21 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 30,
+          "price": 19,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
-          "url": "https://www.zeptonow.com/pn/tomato-hybrid-1-kg-combo/pvid/f8dec6b9-be69-47f0-8dff-9dcbeeaf4dfb"
+          "url": "https://www.zeptonow.com/pn/tomato-hybrid/pvid/2dc82b6a-f898-40c9-a47c-1b9b0888c01c"
         },
         {
           "platform": "Blinkit",
-          "price": 22,
+          "price": 18,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/hybrid-tomato-500-g-hybrid-tameta/prid/3881"
         },
         {
           "platform": "BigBasket",
-          "price": 29,
+          "price": 13.7,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
-          "url": "https://www.bigbasket.com/pd/50000557/fresho-tomato-hybrid-organically-grown-1-kg/?nc=cl-prod-list&t_pos_sec=1&t_pos_item=2&t_s=Tomato+-+Hybrid%252C+Organically+Grown+%2528Loose%2529"
-        },
-        {
-          "platform": "JioMart",
-          "price": 30,
-          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Jiomart.com/Seller-Logo.png",
-          "url": "https://www.jiomart.com/p/groceries/tomato-country-1-kg-pack/590122468"
+          "url": "https://www.bigbasket.com/pd/40022636/fresho-tomato-hybrid-organically-grown-500-g/?nc=cl-prod-list&t_pos_sec=1&t_pos_item=2&t_s=Tomato+-+Hybrid%252C+Organically+Grown+%2528Loose%2529"
         }
       ]
     },
@@ -1709,13 +1658,13 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 39,
+          "price": 49,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/potato/pvid/d38ec8e4-9042-4b42-8f4e-fe879bd50c4b"
         },
         {
           "platform": "Blinkit",
-          "price": 32,
+          "price": 31,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/potato-new-crop-bateta/prid/354997"
         },
@@ -1727,7 +1676,7 @@
         },
         {
           "platform": "JioMart",
-          "price": 29,
+          "price": 30,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Jiomart.com/Seller-Logo.png",
           "url": "https://www.jiomart.com/p/groceries/tapioca-1-kg/590003516"
         }
@@ -1742,25 +1691,25 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 49,
+          "price": 33,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/onion/pvid/2f6630cd-3d48-4ac8-9905-1cf2acf28ec7"
         },
         {
           "platform": "Blinkit",
-          "price": 39,
+          "price": 25,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/onion-dungdi/prid/391306"
         },
         {
           "platform": "BigBasket",
-          "price": 42,
+          "price": 24,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.bigbasket.com/pd/10000148/fresho-onion-1-kg/?nc=cl-prod-list&t_pos_sec=1&t_pos_item=1&t_s=Onion+%2528Loose%2529"
         },
         {
           "platform": "JioMart",
-          "price": 38,
+          "price": 23,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Jiomart.com/Seller-Logo.png",
           "url": "https://www.jiomart.com/p/groceries/lentil-sprouts-200-g/590003515"
         }
@@ -1775,7 +1724,7 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 52,
+          "price": 58,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/carrot-local-500-g-combo/pvid/254664c6-7550-4602-a905-a146ce6f9e92"
         },
@@ -1787,7 +1736,7 @@
         },
         {
           "platform": "BigBasket",
-          "price": 42,
+          "price": 44,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.bigbasket.com/pd/10000070/fresho-carrot-orange-1-kg/?nc=cl-prod-list&t_pos_sec=1&t_pos_item=1&t_s=Carrot+-+Orange+%2528Loose%2529"
         },
@@ -1808,19 +1757,19 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 21,
+          "price": 31,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/capsicum-green/pvid/493fd6ac-d7d7-4d2d-9568-a60abad9a10a"
         },
         {
           "platform": "Blinkit",
-          "price": 12,
+          "price": 24,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/green-capsicum-shimla-mirch/prid/3888"
         },
         {
           "platform": "BigBasket",
-          "price": 18,
+          "price": 22,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.bigbasket.com/pd/40022640/fresho-capsicum-green-organically-grown-500-g/?nc=cl-prod-list&t_pos_sec=1&t_pos_item=2&t_s=Capsicum+-+Green%252C+Organically+Grown+%2528Loose%2529"
         }
@@ -1835,19 +1784,19 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 19,
+          "price": 22,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/cabbage/pvid/74d7238d-08ab-4e83-b571-eaa05e84e582"
         },
         {
           "platform": "Blinkit",
-          "price": 9,
+          "price": 19,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/cabbage-kobhi/prid/339152"
         },
         {
           "platform": "BigBasket",
-          "price": 14.5,
+          "price": 12,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.bigbasket.com/pd/40023473/fresho-cabbage-organically-grown-1-pc-approx-300-13-kg/?nc=cl-prod-list&t_pos_sec=1&t_pos_item=2&t_s=Cabbage+-+Organically+Grown+%2528Loose%2529"
         }
@@ -1862,7 +1811,7 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 60,
+          "price": 63,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/organic-cauliflower/pvid/00105db7-72b2-458d-aeb0-095efc53e017"
         },
@@ -1874,15 +1823,9 @@
         },
         {
           "platform": "BigBasket",
-          "price": 19,
+          "price": 31,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.bigbasket.com/pd/10000074/fresho-cauliflower-1-pc/?nc=cl-prod-list&t_pos_sec=1&t_pos_item=1&t_s=Cauliflower"
-        },
-        {
-          "platform": "JioMart",
-          "price": 24,
-          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Jiomart.com/Seller-Logo.png",
-          "url": "https://www.jiomart.com/p/groceries/capsicum-yellow-200-g/590003537"
         }
       ]
     },
@@ -1895,19 +1838,19 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 19,
+          "price": 22,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/brinjal-small/pvid/b2e55c3e-11b6-4aa8-978c-dd7b3b4ef8d5"
         },
         {
           "platform": "Blinkit",
-          "price": 35,
+          "price": 24,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/round-purple-brinjal-ringda/prid/540504"
         },
         {
           "platform": "BigBasket",
-          "price": 14,
+          "price": 19,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.bigbasket.com/pd/10000060/fresho-brinjal-varikatri-500-g/?nc=cl-prod-list&t_pos_sec=1&t_pos_item=1&t_s=Brinjal+-+Varikatri+%2528Loose%2529"
         },
@@ -1928,19 +1871,19 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 28,
+          "price": 29,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/malabar-spinach/pvid/250cc88e-8bc4-4a30-9191-87009a45a50b"
         },
         {
           "platform": "Blinkit",
-          "price": 17,
+          "price": 25,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/spinach-palak/prid/332744"
         },
         {
           "platform": "BigBasket",
-          "price": 7,
+          "price": 8,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.bigbasket.com/pd/20000979/fresho-palak-cleaned-without-roots-250-g/?nc=cl-prod-list&t_pos_sec=1&t_pos_item=1&t_s=Palak+-+Cleaned%252C+without+roots"
         },
@@ -1961,13 +1904,13 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 25,
+          "price": 20,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/bottle-gourd/pvid/21dd96c3-e916-49e1-a194-9cc4d528b208"
         },
         {
           "platform": "Blinkit",
-          "price": 16,
+          "price": 23,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/baby-bottle-gourd-dudhi/prid/448913"
         },
@@ -1994,7 +1937,7 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 29,
+          "price": 45,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/bitter-gourd/pvid/65680ce0-0af2-48ba-b1c0-b1efe7d5e383"
         },
@@ -2006,7 +1949,7 @@
         },
         {
           "platform": "JioMart",
-          "price": 28,
+          "price": 39,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Jiomart.com/Seller-Logo.png",
           "url": "https://www.jiomart.com/p/groceries/bitter-gourd-per-kg/590003541"
         }
@@ -2021,7 +1964,7 @@
       "prices": [
         {
           "platform": "BigBasket",
-          "price": 56,
+          "price": 52,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.bigbasket.com/pd/40202912/fresho-pumpkin-disco-1-pc/?nc=cl-prod-list&t_pos_sec=1&t_pos_item=2&t_s=Pumpkin+-+Disco"
         },
@@ -2042,13 +1985,13 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 46,
+          "price": 74,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/radish-white-500-g-combo/pvid/17f2fc8b-dcfc-4491-89e5-99f691e286ca"
         },
         {
           "platform": "BigBasket",
-          "price": 32,
+          "price": 36,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.bigbasket.com/pd/40300933/fresho-radish-white-with-leaves-1-kg/?nc=cl-prod-list&t_pos_sec=1&t_pos_item=3&t_s=Radish+-+White%252C+With+Leaves"
         }
@@ -2063,19 +2006,19 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 21,
+          "price": 20,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/beetroot/pvid/02276424-5793-4830-aefa-4ba54145e0e3"
         },
         {
           "platform": "Blinkit",
-          "price": 15,
+          "price": 20,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/beetroot-chakundarbeet/prid/339151"
         },
         {
           "platform": "Instamart",
-          "price": 20,
+          "price": 21,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/item/QY3LA3QLL3?storeId=1374258"
         },
@@ -2096,9 +2039,9 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 35,
+          "price": 30,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
-          "url": "https://www.zepto.com/green-beans"
+          "url": "https://www.zeptonow.com/pn/beans-french/pvid/ff305635-6260-45eb-8b10-93b738c5e263"
         },
         {
           "platform": "Blinkit",
@@ -2108,7 +2051,7 @@
         },
         {
           "platform": "Instamart",
-          "price": 29,
+          "price": 28,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/item/DYC3IT9PNC?storeId=1374258s"
         }
@@ -2123,21 +2066,21 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 12,
+          "price": 23,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/gourmet-garden-organic-ginger/pvid/0d636787-b740-4e97-a40c-0b984405e13b"
         },
         {
           "platform": "Blinkit",
-          "price": 16,
+          "price": 19,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/ginger-adu/prid/95032"
         },
         {
           "platform": "Instamart",
-          "price": 15,
+          "price": 16,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
-          "url": "https://www.Instamart.com/ginger"
+          "url": "https://www.swiggy.com/instamart/item/0FYKU31E4B?storeId=1374258"
         }
       ]
     },
@@ -2150,25 +2093,25 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 49,
+          "price": 63,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/garlic/pvid/5c1bb975-875c-4a7d-97a0-5bcb0b9f2449"
         },
         {
           "platform": "Blinkit",
-          "price": 56,
+          "price": 39,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/garlic-lasan/prid/355004"
         },
         {
           "platform": "Instamart",
-          "price": 45,
+          "price": 61,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/item/CJ7W227AZE?storeId=1374258"
         },
         {
           "platform": "JioMart",
-          "price": 36,
+          "price": 32,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Jiomart.com/Seller-Logo.png",
           "url": "https://www.jiomart.com/p/groceries/garlic-indian-200-g/590003532"
         }
@@ -2178,18 +2121,18 @@
       "id": 86,
       "category": "grocery",
       "subCategory": "vegetables",
-      "name": "Fenugreek (Methi)",
+      "name": "Fenugreek (Methi) 200 g",
       "image": "https://cdn.zeptonow.com/production/ik-seo/tr:w-644,ar-644-708,pr-true,f-auto,q-80/cms/product_variant/8ec5a140-004e-4961-a76d-da7bc02b3ed3/Fenugreek-Methi-.jpeg",
       "prices": [
         {
           "platform": "Zepto",
-          "price": 28,
+          "price": 39,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/fenugreek-methi/pvid/2aa60e3e-2d3c-439f-b0c1-ef4aa6abf7a8"
         },
         {
           "platform": "Blinkit",
-          "price": 20,
+          "price": 24,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/fenugreek-methi/prid/3916"
         },
@@ -2201,36 +2144,9 @@
         },
         {
           "platform": "JioMart",
-          "price": 24,
+          "price": 30,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Jiomart.com/Seller-Logo.png",
           "url": "https://www.jiomart.com/p/groceries/methi-leaves-1-bunch/590004477"
-        }
-      ]
-    },
-    {
-      "id": 87,
-      "category": "grocery",
-      "subCategory": "vegetables",
-      "name": "Cabbage (Kobhi)",
-      "image": "https://cdn.zeptonow.com/production/ik-seo/tr:w-1280,ar-3000-3000,pr-true,f-auto,q-80/cms/product_variant/5f90fc05-f68d-407a-a980-ec5099bb0080/Cabbage.jpeg",
-      "prices": [
-        {
-          "platform": "Zepto",
-          "price": 19,
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
-          "url": "https://www.zeptonow.com/pn/cabbage/pvid/74d7238d-08ab-4e83-b571-eaa05e84e582"
-        },
-        {
-          "platform": "Blinkit",
-          "price": 15,
-          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
-          "url": "https://blinkit.com/prn/cabbage-kobhi/prid/339152"
-        },
-        {
-          "platform": "Instamart",
-          "price": 26,
-          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
-          "url": "https://www.swiggy.com/instamart/item/48UCLABTPP?storeId=1374258"
         }
       ]
     }
@@ -2245,7 +2161,7 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 167,
+          "price": 177,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/apple-shimla/pvid/a5834089-9baf-4025-81e4-d86372bbef09"
         },
@@ -2259,7 +2175,7 @@
           "platform": "Instamart",
           "price": 155,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
-          "url": "https://www.Instamart.com/apple"
+          "url": "https://www.swiggy.com/instamart/item/5JPI8MR642?storeId=1374258"
         }
       ]
     },
@@ -2272,25 +2188,25 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 58,
+          "price": 61,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/banana-robusta/pvid/e71597b4-ee84-46be-bc18-d4ea8ea62fd5"
         },
         {
           "platform": "Blinkit",
-          "price": 60,
+          "price": 63,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/yellaki-banana-keda/prid/88275"
         },
         {
           "platform": "Instamart",
-          "price": 59,
+          "price": 64,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/item/UF1RAT2HVQ?storeId=1374258"
         },
         {
           "platform": "StarQuik",
-          "price": 53,
+          "price": 45,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Jiomart.com/Seller-Logo.png",
           "url": "https://www.starquik.com/product/starfresh-banana-yellaki-pack-of-6-about-350-to-450-gm"
         }
@@ -2305,19 +2221,19 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 213,
+          "price": 159,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/mango-banganapalli/pvid/023ab12f-7d5f-47f8-aef8-b490942ea08b"
         },
         {
           "platform": "Blinkit",
-          "price": 137,
+          "price": 103,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/safeda-banganapalli-mango-keri/prid/15619"
         },
         {
           "platform": "Instamart",
-          "price": 155,
+          "price": 149,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/item/7EJ39HTS5V?storeId=1374258"
         }
@@ -2327,26 +2243,26 @@
       "id": 91,
       "category": "grocery",
       "subCategory": "fruits",
-      "name": "Orange ",
+      "name": "Orange 500 g ",
       "image": "https://cdn.zeptonow.com/production/ik-seo/tr:w-1280,ar-3000-3000,pr-true,f-auto,q-80/cms/product_variant/e8db9e96-f044-4572-b441-28c6d372f272/Orange-Nagpur.jpeg",
       "prices": [
         {
           "platform": "Zepto",
-          "price": 90,
+          "price": 114,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/orange-nagpur/pvid/2abc91ec-2fe9-452c-8123-eb1353a3f35e"
         },
         {
           "platform": "Blinkit",
-          "price": 56,
+          "price": 64,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/nagpur-orange-santra/prid/339128"
         },
         {
           "platform": "Instamart",
-          "price": 129,
+          "price": 69,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
-          "url": "https://www.swiggy.com/instamart/item/NMZEOQS0T0?storeId=1374258"
+          "url": "https://www.swiggy.com/instamart/item/LWXQC73QQB?storeId=1374258"
         },
         {
           "platform": "JioMart",
@@ -2365,19 +2281,19 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 55,
+          "price": 84,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
-          "url": "https://www.zepto.com/pineapple"
+          "url": "https://www.zepto.com/pn/pineapple/pvid/31d5d84e-c818-43d6-848a-bd10b774d847"
         },
         {
           "platform": "Blinkit",
-          "price": 95,
+          "price": 117,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/pineapple-ananas/prid/190320"
         },
         {
           "platform": "Instamart",
-          "price": 93,
+          "price": 83,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/item/8BB9HM9FUS?storeId=1374258"
         }
@@ -2392,19 +2308,19 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 83,
+          "price": 95,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/watermelon-kiran/pvid/b42e30ae-48d0-4fcf-a06e-cc54adce2a75"
         },
         {
           "platform": "Blinkit",
-          "price": 51,
+          "price": 64,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/kiran-watermelon-tarbooch/prid/369752"
         },
         {
           "platform": "Instamart",
-          "price": 65,
+          "price": 69,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/item/LBYG20V3WS?storeId=1374258"
         }
@@ -2419,13 +2335,13 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 63,
+          "price": 80,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/grapes-green-seedless/pvid/74f9abe4-2ba4-45f5-ab52-3ecf7e2e010f"
         },
         {
           "platform": "Blinkit",
-          "price": 83,
+          "price": 84,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/green-grapes-500-g-lili-draaksh/prid/347025"
         },
@@ -2446,7 +2362,7 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 76,
+          "price": 88,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/strawberry/pvid/cf8e41c6-8b18-461f-95b4-02876a22edce"
         },
@@ -2458,7 +2374,7 @@
         },
         {
           "platform": "Instamart",
-          "price": 100,
+          "price": 99,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/item/2O7K1TZF93?storeId=1374258"
         }
@@ -2473,19 +2389,19 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 150,
+          "price": 180,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/pomegranate/pvid/41c47728-b1eb-4fca-a7b4-91b6be00365b"
         },
         {
           "platform": "Blinkit",
-          "price": 133,
+          "price": 138,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/pomegranate-medium-500g-700-g-dadam/prid/421745"
         },
         {
           "platform": "Instamart",
-          "price": 159,
+          "price": 169,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/item/P45DGM8MTR?storeId=1374258"
         }
@@ -2500,7 +2416,7 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 85,
+          "price": 55,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/papaya/pvid/9d6ab15c-70e5-410f-9d4b-82be81494244"
         },
@@ -2512,7 +2428,7 @@
         },
         {
           "platform": "Instamart",
-          "price": 88,
+          "price": 63,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/item/X6SSJHKVRS?storeId=1374258"
         }
@@ -2527,25 +2443,25 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 129,
+          "price": 128,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/kiwi-green/pvid/862df01f-c0d6-4bc9-9731-347885d2113d"
         },
         {
           "platform": "Blinkit",
-          "price": 95,
+          "price": 92,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/green-kiwi/prid/394525"
         },
         {
           "platform": "Instamart",
-          "price": 134,
+          "price": 119,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/item/O20HNRXYU4?storeId=1374258"
         },
         {
           "platform": "JioMart",
-          "price": 130,
+          "price": 110,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Jiomart.com/Seller-Logo.png",
           "url": "https://www.jiomart.com/p/groceries/kiwi-imported-3-pcs-pack/590317377"
         }
@@ -2560,19 +2476,19 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 59,
+          "price": 69,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/guava-thai/pvid/6ed88f72-38da-433a-8506-d601f4d5916d"
         },
         {
           "platform": "Blinkit",
-          "price": 49,
+          "price": 65,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
-          "url": "https://blinkit.com/prn/guava-jamfad/prid/425788"
+          "url": "https://blinkit.com/prn/thai-guava-500-g-700-g-jamfad/prid/458760"
         },
         {
           "platform": "Instamart",
-          "price": 59,
+          "price": 70,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/item/NIRO6Q3U17?storeId=1374258"
         }
@@ -2587,7 +2503,7 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 255,
+          "price": 154,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/blueberry/pvid/b7d27beb-b7da-4caa-b7a3-4e520062d9c7"
         },
@@ -2599,9 +2515,9 @@
         },
         {
           "platform": "Instamart",
-          "price": 249,
+          "price": 219,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
-          "url": "https://www.swiggy.com/instamart/item/R16TUIDXGD?storeId=1374258"
+          "url": "https://www.swiggy.com/instamart/item/QWOXHLKW9R?storeId=1374258"
         }
       ]
     },
@@ -2614,19 +2530,19 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 57,
+          "price": 66,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/sapota-chicko/pvid/e5beb13b-09fb-40ea-a374-e2f0f4e21c12"
         },
         {
           "platform": "Blinkit",
-          "price": 59,
+          "price": 60,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/chikoo-sapota-chikoo/prid/4967"
         },
         {
           "platform": "Instamart",
-          "price": 65,
+          "price": 64,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/item/QM6TKWBHJ9?storeId=1374258"
         }
@@ -2641,19 +2557,19 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 88,
+          "price": 97,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/dragon-fruit-imported/pvid/5c81bb1c-4eda-4ac6-9467-dbdd8d077796"
         },
         {
           "platform": "Blinkit",
-          "price": 67,
+          "price": 86,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/dragon-fruit-kamalam/prid/294780"
         },
         {
           "platform": "Instamart",
-          "price": 109,
+          "price": 95,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/item/LAB23JFMCS?storeId=1374258"
         },
@@ -2688,7 +2604,7 @@
         },
         {
           "platform": "StarQuik",
-          "price": 71,
+          "price": 70,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.starquik.com/product/amul-taaza-toned-milk-tetra-pack-1ltr?"
         },
@@ -2754,7 +2670,7 @@
         },
         {
           "platform": "StarQuik",
-          "price": 120,
+          "price": 123,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.starquik.com/product/amul-cheese-block-200g?"
         }
@@ -2769,13 +2685,13 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 60,
+          "price": 63,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/Milky-Mist-Probiotic-Curd-Cup/pvid/d26207e4-d61b-473c-9934-a4d47adca6f8"
         },
         {
           "platform": "StarQuik",
-          "price": 55,
+          "price": 63,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.starquik.com/product/milkmist-probiotic-curd-cup-400-gm?"
         },
@@ -2808,7 +2724,7 @@
         },
         {
           "platform": "StarQuik",
-          "price": 81,
+          "price": 79,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.starquik.com/product/amul-fresh-paneer-200g?"
         }
@@ -2823,25 +2739,25 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 597,
+          "price": 612,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/Amul-Pure-Ghee-Pouch/pvid/b3627f55-0813-4b59-9133-ba0f7d956b88"
         },
         {
           "platform": "Blinkit",
-          "price": 627,
+          "price": 630,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/amul-cow-ghee-pouch-gaay-nu-ghee/prid/131935"
         },
         {
           "platform": "StarQuik",
-          "price": 578,
+          "price": 579,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.starquik.com/product/amul-pure-desi-ghee-pounch-1ltr?"
         },
         {
           "platform": "Instamart",
-          "price": 635,
+          "price": 617,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/p/amul-pure-ghee-UMRTCGIBUL"
         }
@@ -2901,15 +2817,15 @@
         },
         {
           "platform": "StarQuik",
-          "price": 413,
+          "price": 405,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.starquik.com/product/amul-cheese-slices-750g?"
         },
         {
           "platform": "Instamart",
-          "price": 107,
+          "price": 426,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
-          "url": "https://www.Instamart.com/cream"
+          "url": "https://www.swiggy.com/instamart/item/CNP270FMTW?storeId=1374258"
         }
       ]
     },
@@ -2922,9 +2838,9 @@
       "prices": [
         {
           "platform": "Blinkit",
-          "price": 111,
+          "price": 20,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
-          "url": "https://www.blinkit.com/flavored-milk"
+          "url": "https://blinkit.com/prn/amul-sweet-lassi/prid/191439"
         },
         {
           "platform": "StarQuik",
@@ -2944,7 +2860,7 @@
       "id": 112,
       "category": "grocery",
       "subCategory": "dairy",
-      "name": "Milky Mist Mango Fruit Yoghurt - 100 Ml",
+      "name": "Milky Mist Mango Fruit Yoghurt - 75 g",
       "image": "https://media.starquik.com/catalog/product/SQ113665.jpg",
       "prices": [
         {
@@ -2955,7 +2871,7 @@
         },
         {
           "platform": "StarQuik",
-          "price": 25,
+          "price": 29,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.starquik.com/product/milky-mist-mango-fruit-yoghurt-100ml"
         },
@@ -2982,7 +2898,7 @@
         },
         {
           "platform": "StarQuik",
-          "price": 120,
+          "price": 117,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.starquik.com/product/amul-shrikhand-kesar-tub-500g?"
         }
@@ -3009,13 +2925,13 @@
         },
         {
           "platform": "StarQuik",
-          "price": 14,
+          "price": 14.55,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.starquik.com/product/amul-masti-butter-milk-tetra-pack-200ml?"
         },
         {
           "platform": "Instamart",
-          "price": 14,
+          "price": 15,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/p/amul-masti-spiced-buttermilk-B2GQYI889T"
         }
@@ -3032,7 +2948,7 @@
       "prices": [
         {
           "platform": "Blinkit",
-          "price": 559,
+          "price": 649,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/happilo-100-natural-premium-whole-cashew-kaju/prid/531954"
         },
@@ -3059,9 +2975,9 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 228,
+          "price": 161,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
-          "url": "https://www.zeptonow.com/pn/Happilo-Premium-Raw-Pumpkin-Seeds/pvid/ac502f4e-be42-4e22-a7e0-b423ab174912"
+          "url": "https://www.zeptonow.com/pn/Happil161remium-Raw-Pumpkin-Seeds/pvid/ac502f4e-be42-4e22-a7e0-b423ab174912"
         },
         {
           "platform": "Instamart",
@@ -3080,19 +2996,19 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 232,
+          "price": 229,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/Happilo-Premium-Californian-100-Natural-Almonds/pvid/6dde7b07-d8a2-44db-b9f2-869942b91d2e"
         },
         {
           "platform": "Blinkit",
-          "price": 229,
+          "price": 214,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/happilo-premium-natural-californian-almonds-badam/prid/475804"
         },
         {
           "platform": "Flipkart",
-          "price": 226,
+          "price": 217,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.flipkart.com/happilo-premium-naturals-californian-almonds/p/itm91dc68d0b1a8f?pid=NDFF4N9PUD7PYPZ7&lid=LSTNDFF4N9PUD7PYPZ75WXCD5&affid=salescueli&affExtParam1=20250317clpqyxyu2mx5&affExtParam2=21928"
         },
@@ -3113,7 +3029,7 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 160,
+          "price": 159,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/Happilo-Premium-International-Omani-Dates/pvid/7f7844da-e706-42b9-9fe4-6e4d6644ba34"
         },
@@ -3125,7 +3041,7 @@
         },
         {
           "platform": "Flipkart",
-          "price": 148,
+          "price": 151,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.flipkart.com/happilo-premium-international-omani-dates/p/itmf4n9pyh5xhcdp?pid=NDFF4N9P7YVSZDDQ&lid=LSTNDFF4N9P7YVSZDDQ4A7P6G&affid=salescueli&affExtParam1=20250317cl4yk2o1dnlx&affExtParam2=21928"
         },
@@ -3146,27 +3062,27 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 151,
+          "price": 141,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/Farmley-Premium-Natural-Chia-Seeds-Rich-in-Protein-&-Fiber/pvid/9c08efe4-18d1-4d8d-bb62-15ceec5433cb"
         },
         {
           "platform": "Blinkit",
-          "price": 120,
+          "price": 125,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
-          "url": "https://www.blinkit.com/sour-cream"
+          "url": "https://blinkit.com/prn/farmley-premium-chia-seeds-chia-bii/prid/519114"
         },
         {
           "platform": "Flipkart",
-          "price": 128,
+          "price": 129,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.flipkart.com/farmley-premium-chia-seeds/p/itmf9c08ba8e1b0f?pid=EDSFSYD2VAYXUFZH&lid=LSTEDSFSYD2VAYXUFZHCNCILD&affid=salescueli&affExtParam1=20250317clt845tplkya&affExtParam2=21928"
         },
         {
           "platform": "Instamart",
-          "price": 143,
+          "price": 199,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
-          "url": "https://www.flipkart.com/farmley-premium-chia-seeds/p/itmf9c08ba8e1b0f?pid=EDSFSYD2VAYXUFZH&lid=LSTEDSFSYD2VAYXUFZHCNCILD&affid=salescueli&affExtParam1=20250317clt845tplkya&affExtParam2=21928"
+          "url": "https://www.swiggy.com/instamart/item/QJEKO8YDBV?storeId=1374258"
         }
       ]
     },
@@ -3179,25 +3095,25 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 125,
+          "price": 131,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/Farmley-Premium-Sunflower-Seeds/pvid/29e56d16-81c2-4742-8f38-2e080ffbcc72"
         },
         {
           "platform": "Blinkit",
-          "price": 125,
+          "price": 128,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/farmley-premium-sunflower-seeds-surajmukhi-beej/prid/519117"
         },
         {
           "platform": "Flipkart",
-          "price": 110,
+          "price": 92,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.flipkart.com/farmley-premium-sunflower-seeds/p/itmb3e053d9465fd?pid=EDSGKGUWZRRSTTRK&lid=LSTEDSGKGUWZRRSTTRKNCJSEM&affid=salescueli&affExtParam1=20250317cls6rtexq5z3&affExtParam2=21928"
         },
         {
           "platform": "Instamart",
-          "price": 119,
+          "price": 128,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/p/farmley-premium-raw-sunflower-seeds-C79OL33R92"
         }
@@ -3212,13 +3128,13 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 358,
+          "price": 246,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/Farmley-Thai-Chilli-Roasted-Cashews-Kaju-Snacks/pvid/88927721-d6d0-464d-b69a-b85b6658b2cf"
         },
         {
           "platform": "Flipkart",
-          "price": 342,
+          "price": 248,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.flipkart.com/farmley-roasted-flavored-thai-chilli-cashews/p/itm12b99567ee4d3?pid=NDFFYM38X5ZURUHF&lid=LSTNDFFYM38X5ZURUHFY8F6CS&affid=salescueli&affExtParam1=20250318clf4jlfjfltz&affExtParam2=21928"
         }
@@ -3246,12 +3162,6 @@
           "url": "https://blinkit.com/prn/lays-indias-magic-masala-potato-chips/prid/432775"
         },
         {
-          "platform": "StaeQuik",
-          "price": 20,
-          "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
-          "url": "https://www.starquik.com/product/maggi-veg-atta-noodle-320g?"
-        },
-        {
           "platform": "Instamart",
           "price": 20,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
@@ -3270,7 +3180,7 @@
           "platform": "Zepto",
           "price": 94,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
-          "url": "https://www.xerve.in/redirect?store_id=XRVOS_zpt_zpt990c23f2fc0c&section=prices&flipkart_count=&device_append=W&sem="
+          "url": "https://www.zeptonow.com/pn/britannia-50-50-maska-chaska-biscuits/pvid/52a3595b-ecfa-4151-95d5-990c23f2fc0c"
         },
         {
           "platform": "Blinkit",
@@ -3280,9 +3190,9 @@
         },
         {
           "platform": "StarQuik",
-          "price": 76,
+          "price": 73,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
-          "url": "https://www.xerve.in/redirect?store_id=XRVOS_big_big40203380&section=prices&flipkart_count=&device_append=W&sem="
+          "url": "https://www.starquik.com/product/britannia-50-50-maska-chaska-combi-300g"
         },
         {
           "platform": "Instamart",
@@ -3301,25 +3211,25 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 111,
+          "price": 112,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/maggi-nutri-licious-masala-veg-atta-noodles-with-spinach/pvid/fe5fd19f-16e9-4772-848e-0bb472ad6797"
         },
         {
           "platform": "Blinkit",
-          "price": 112,
+          "price": 105,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/maggi-nutri-licious-masala-veg-atta-instant-noodles/prid/179771"
         },
         {
           "platform": "StarQuik",
-          "price": 95,
+          "price": 92,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.starquik.com/product/maggi-veg-atta-noodle-320g?"
         },
         {
           "platform": "Instamart",
-          "price": 105,
+          "price": 98,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/p/maggi-veg-atta-noodles-8473WCE552"
         }
@@ -3346,7 +3256,7 @@
         },
         {
           "platform": "StarQuik",
-          "price": 169,
+          "price": 194,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.starquik.com/product/amul-milk-chocolate-150g?"
         },
@@ -3354,7 +3264,7 @@
           "platform": "Instamart",
           "price": 200,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
-          "url": "https://www.xerve.in/redirect?store_id=XRVOS_swg_swg5K6YDBOEVX&section=prices&flipkart_count=&device_append=W&sem="
+          "url": "https://www.swiggy.com/instamart/p/amul-milk-chocolate-5K6YDBOEVX"
         }
       ]
     },
@@ -3369,7 +3279,7 @@
           "platform": "Zepto",
           "price": 86,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
-          "url": "https://www.xerve.in/redirect?store_id=XRVOS_zpt_zptff6ef4a910cc&section=prices&flipkart_count=&device_append=W&sem="
+          "url": "https://www.zeptonow.com/pn/quaker-oats/pvid/dfb6bdd1-72b7-4ed0-81ea-ff6ef4a910cc"
         },
         {
           "platform": "Blinkit",
@@ -3421,21 +3331,21 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 61,
+          "price": 40,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
-          "url": "https://www.zeptonow.com/pn/Parle-Monaco-Classic-Cheeslings/pvid/695697bf-a231-47e4-b430-4e174892fabd"
+          "url": "https://www.zeptonow.com/pn/parle-monaco-classic-salty-biscuits/pvid/1e3073c5-1310-4c18-804b-d0261b4a0de7"
         },
         {
           "platform": "StarQuik",
-          "price": 37,
+          "price": 38,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.starquik.com/product/parle-salted-biscuit-150g?"
         },
         {
           "platform": "Instamart",
-          "price": 56,
+          "price": 38,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
-          "url": "https://www.swiggy.com/instamart/p/parle-monaco-classic-cheeslings-3DF6X11W6F"
+          "url": "https://www.swiggy.com/instamart/item/SDKNOPST2Z?storeId=1374258"
         }
       ]
     },
@@ -3454,7 +3364,7 @@
         },
         {
           "platform": "StarQuik",
-          "price": 75,
+          "price": 79,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.starquik.com/product/britannia-milkbikis-combi-500g?"
         },
@@ -3475,19 +3385,19 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 150,
+          "price": 102,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/Britannia-Good-Day-Chocochip-Cookies-Zero-Trans-Fat/pvid/e8042f15-e186-437b-b30e-be99a2d093d0"
         },
         {
           "platform": "Blinkit",
-          "price": 148,
+          "price": 139,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/britannia-good-day-choco-chip-cookies/prid/427123"
         },
         {
           "platform": "StarQuik",
-          "price": 99,
+          "price": 88,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.starquik.com/product/britannia-good-day-chocochip-combi-400g?"
         }
@@ -3502,13 +3412,13 @@
       "prices": [
         {
           "platform": "Blinkit",
-          "price": 44,
+          "price": 43,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/britannia-toastea-premium-bake-rusk-250-g/prid/15366"
         },
         {
           "platform": "Instamart",
-          "price": 48,
+          "price": 44,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/p/britannia-toastea-premium-bake-rusk-ZNRIJYKRUD"
         }
@@ -3523,13 +3433,13 @@
       "prices": [
         {
           "platform": "Blinkit",
-          "price": 50,
+          "price": 51,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/britannia-milk-bikis-milk-sandwich-cream-biscuits/prid/11170"
         },
         {
           "platform": "Instamart",
-          "price": 50,
+          "price": 51,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/p/britannia-milk-bikis-sandwich-biscuits-7Z66YMCLXN"
         }
@@ -3544,13 +3454,13 @@
       "prices": [
         {
           "platform": "Blinkit",
-          "price": 191,
+          "price": 184,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/parle-premium-real-elaichi-rusk/prid/439619"
         },
         {
           "platform": "Instamart",
-          "price": 165,
+          "price": 180,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/p/parle-elaichi-rusk-pouch-8HATX2H28I"
         }
@@ -3565,7 +3475,7 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 90,
+          "price": 91,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/Cadbury-Gems-Chocolate-Home-Treats-Pack/pvid/5ed0bdb9-6dc9-4c41-b41f-9811d244c2e0"
         },
@@ -3631,7 +3541,7 @@
         },
         {
           "platform": "StarQuik",
-          "price": 119,
+          "price": 135,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.starquik.com/product/amul-chocomini-tub-250g?"
         },
@@ -3652,19 +3562,19 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 40,
+          "price": 43,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/Yogabar-Multigrain-Energy-Bars-Chocolate-Chunk-with-Nuts-Oats-and-Millets-Chia-Seeds-Protein-Bars/pvid/9312fbbd-00f6-4429-81aa-dcd3e66e1c19"
         },
         {
           "platform": "Blinkit",
-          "price": 40,
+          "price": 42,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/yoga-bar-chocolate-chunk-nut-multigrain-protein-bar-35-g/prid/249288"
         },
         {
           "platform": "Instamart",
-          "price": 40,
+          "price": 41,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/p/yoga-bar-chocolate-energy-protein-bar-protein-rich-snack-multigrain-energy-bars-6QN1WA0IEX"
         }
@@ -3693,7 +3603,7 @@
           "platform": "Instamart",
           "price": 25,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
-          "url": "https://www.swiggy.com/instamart/p/slurrp-farm-cheese-herbs-puffs-no-maida-8W6OLUUAXL"
+          "url": "https://www.swiggy.com/instamart/item/3J7ZMT08YW?storeId=1374258"
         }
       ]
     },
@@ -3701,53 +3611,26 @@
       "id": 139,
       "category": "grocery",
       "subCategory": "snacks",
-      "name": "Britannia Toastea Premium Bake Rusk (250 G X 2)",
+      "name": "Britannia Toastea Premium Bake Rusk (250 G)",
       "image": "https://d1xbedroeo1z0l.cloudfront.net/fit-in/1100x1100/Swiggy.com/swgznrijykrud_1100x1100.png",
       "prices": [
         {
           "platform": "Blinkit",
-          "price": 44,
+          "price": 43,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/britannia-toastea-premium-bake-rusk-250-g/prid/15366"
         },
         {
-          "platform": "StarQuik",
-          "price": 99,
+          "platform": "BigBasket",
+          "price": 48.5,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
-          "url": "https://www.StarQuik.com/cornflakes"
+          "url": "https://www.bigbasket.com/pd/312568/britannia-toastea-premium-bake-rusk-with-goodness-of-elaichi-sooji-wheat-273-g/?nc=as"
         },
         {
           "platform": "Instamart",
-          "price": 48,
+          "price": 44,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
           "url": "https://www.swiggy.com/instamart/p/britannia-toastea-premium-bake-rusk-ZNRIJYKRUD"
-        }
-      ]
-    },
-    {
-      "id": 140,
-      "category": "grocery",
-      "subCategory": "snacks",
-      "name": "Lays Indias Magic Masala Potato Chips (48 G)",
-      "image": "https://d1xbedroeo1z0l.cloudfront.net/fit-in/1100x1100/Zeptonow.com/zptecfe8c2faf22_1100x1100.jpeg",
-      "prices": [
-        {
-          "platform": "Zepto",
-          "price": 20,
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
-          "url": "https://www.zeptonow.com/pn/Lay's-India's-Magic-Masala-Potato-Chips/pvid/07878a63-2656-4618-a7cc-ecfe8c2faf22"
-        },
-        {
-          "platform": "Blinkit",
-          "price": 20,
-          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
-          "url": "https://blinkit.com/prn/lays-indias-magic-masala-potato-chips/prid/432775"
-        },
-        {
-          "platform": "Instamart",
-          "price": 20,
-          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Swiggy.com/Seller-Logo.png",
-          "url": "https://www.swiggy.com/instamart/p/lay-s-india-s-magic-masala-chips-S9AE4DAA9O"
         }
       ]
     },
@@ -3784,7 +3667,7 @@
       "id": 143,
       "category": "grocery",
       "subCategory": "beverages",
-      "name": "Orange Juice 1L",
+      "name": "Fanta 750ml",
       "image": "https://cdn.zeptonow.com/production/ik-seo/tr:w-1200,ar-1200-1200,pr-true,f-auto,q-80/cms/product_variant/e5821751-273d-4bac-9ba5-c8b393d787df/Fanta-Orange-Flavoured-Soft-Drink.jpeg",
       "prices": [
         {
@@ -3801,13 +3684,13 @@
         },
         {
           "platform": "StarQuik",
-          "price": 36,
+          "price": 40,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
-          "url": "https://www.StarQuik.com/pd/251019/fanta-soft-drink-orange-flavoured-750-ml-pet-bottle/?nc=as"
+          "url": "https://www.starquik.com/product/fanta-orange-cold-drink-750ml"
         },
         {
           "platform": "JioMart",
-          "price": 33,
+          "price": 36,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Jiomart.com/Seller-Logo.png",
           "url": "https://www.jiomart.com/p/groceries/fanta-orange-750-ml/491085933"
         }
@@ -3817,7 +3700,7 @@
       "id": 144,
       "category": "grocery",
       "subCategory": "beverages",
-      "name": "Apple Juice 1L",
+      "name": "Appy Fizz 1L",
       "image": "https://www.bbassets.com/media/uploads/p/l/265692-2_8-appy-fizz-apple-juice-based-drink.jpg",
       "prices": [
         {
@@ -3840,7 +3723,7 @@
         },
         {
           "platform": "JioMart",
-          "price": 65,
+          "price": 66,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Jiomart.com/Seller-Logo.png",
           "url": "https://www.jiomart.com/p/groceries/appy-fizz-1-l/490000946"
         }
@@ -3855,19 +3738,19 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 420,
+          "price": 540,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/Bru-Instant-Coffee/pvid/289a7635-5779-4562-b37a-26ffba23737a"
         },
         {
           "platform": "Blinkit",
-          "price": 510,
+          "price": 540,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/bru-instant-coffee/prid/233"
         },
         {
           "platform": "StarQuik",
-          "price": 499,
+          "price": 510,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.starquik.com/product/bru-instant-coffee-pouch-200g?"
         }
@@ -3882,7 +3765,7 @@
       "prices": [
         {
           "platform": "Zepto",
-          "price": 270,
+          "price": 290,
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/2560px-Zepto_Logo.svg.png",
           "url": "https://www.zeptonow.com/pn/Bru-Instant-Pure-Coffee-Jar/pvid/6146f8ca-4da7-460b-9d6f-5dee81d59a7e"
         },
@@ -3894,7 +3777,7 @@
         },
         {
           "platform": "StarQuik",
-          "price": 92,
+          "price": 155,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.starquik.com/product/bru-instant-coffee-pouch-50g?"
         }
@@ -3921,7 +3804,7 @@
         },
         {
           "platform": "BigBasket",
-          "price": 435,
+          "price": 488,
           "logo": "https://cdn.brandfetch.io/idIM18oaEt/w/800/h/295/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B",
           "url": "https://www.bigbasket.com/pd/40301474/dabur-honey-100-pure-no-sugar-adulteration-13-kg-pet-bottle/?nc=cl-prod-list&t_pos_sec=1&t_pos_item=1&t_s=Honey"
         }
@@ -3963,9 +3846,9 @@
         },
         {
           "platform": "Blinkit",
-          "price": 145,
+          "price": 165,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
-          "url": "https://blinkit.com/prn/bru-instant-coffee-50-g/prid/13965"
+          "url": "https://blinkit.com/prn/nescafe-sunrise-instant-coffee-powder-rich-aroma-coffee-chicory-mix/prid/18478"
         }
       ]
     },
@@ -4011,7 +3894,7 @@
         },
         {
           "platform": "Blinkit",
-          "price": 110,
+          "price": 102,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Blinkit.com/Seller-Logo.png",
           "url": "https://blinkit.com/prn/monster-energy-drink/prid/403174"
         },
@@ -4023,9 +3906,284 @@
         },
         {
           "platform": "JioMart",
-          "price": 83,
+          "price": 102,
           "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Jiomart.com/Seller-Logo.png",
           "url": "https://www.jiomart.com/p/groceries/monster-energy-drink-350-ml-can/491053276"
+        }
+      ]
+    }
+  ],
+  "ac" : [
+    {
+      "id": 152,
+      "category": "electronics",
+      "subCategory": "ac",
+      "name": "Daikin 1 Ton 3 Star Split Ac With Pm 2.5 Filter - White Ftl35Uv16W1 3 Rl35Uv16W1 Ftl35Uv16W1 3 Copper Condenser",
+      "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1722410948/Croma%20Assets/Large%20Appliances/Refrigerator/Images/248202_0_bhubo6.png?tr=w-640",
+      "prices": [
+        {
+          "platform": "Amazon",
+          "price": 33490,
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
+          "url": "https://www.amazon.in/Daikin-Fixed-Copper-Filter-FTL35U/dp/B09R4RFRFY/?creative=165953&creativeASIN=&tag=cuelinkss23220-21&ascsubtag=20250421clkbguuixunj"
+        },
+        {
+          "platform": "Flipkart",
+          "price": 34300,
+          "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
+          "url": "https://www.flipkart.com/daikin-1-ton-3-star-split-ac-pm-2-5-filter-white/p/itma4efcf29ea3ba?pid=ACNGB2YAYRJFHK4C&lid=LSTACNGB2YAYRJFHK4C3HFGSB&affid=salescueli&affExtParam1=20250421cl5ssf48f24i&affExtParam2=21928"
+        },
+        {
+          "platform": "Croma",
+          "price": 32990,
+          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Croma.com/Seller-Logo.png",
+          "url": "https://www.croma.com/daikin-standard-series-1-ton-3-star-split-ac-copper-condenser-pm-2-5-filter-ftl35uv-/p/248202?utm_source=cuelinks&utm_medium=affiliate&utm_campaign=summersale&utm_term=network&utm_content=20250421clkyapmlanlb"
+        },
+        {
+          "platform": "Vijay Sales",
+          "price": 32990,
+          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Vijaysales.com/Seller-Logo.png",
+          "url": "https://www.vijaysales.com/voltas-1-5-ton-5-star-inverter-split-ac/p/345678"
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "category": "electronics",
+      "subCategory": "ac",
+      "name": "Daikin Standard 1.8 Ton 1 Star Split Ac 2022 Model Copper Condenser Anti Bacterial Filter Fte60U",
+      "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1664430708/Croma%20Assets/Large%20Appliances/Air%20Conditioner/Images/258560_0_nsbdfk.png?tr=w-640",
+      "prices": [
+        {
+          "platform": "Amazon",
+          "price": 44990,
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
+          "url": "https://www.amazon.in/Daikin-Copper-Bacterial-Filter-FTE60UV16/dp/B0BK1JZFVN/?creative=165953&creativeASIN=&affid=storexerv&tag=cuelinkss23220-21&ascsubtag=20250428clqt8befqqbq"
+        },
+        {
+          "platform": "Flipkart",
+          "price": 42999,
+          "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
+          "url": "https://www.flipkart.com/daikin-1-8-ton-1-star-split-ac-white/p/itma4efcf29ea3ba?pid=ACNGFSYTC3PHAXHP&lid=LSTACNGFSYTC3PHAXHPEUMXBU&affid=salescueli&affExtParam1=20250421cldiwdu2t3tn&affExtParam2=21928"
+        },
+        {
+          "platform": "Croma",
+          "price": 42290,
+          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Croma.com/Seller-Logo.png",
+          "url": "https://www.croma.com/daikin-standard-1-8-ton-1-star-split-ac-copper-condenser-anti-bacterial-filter-fte60u-/p/258560?utm_source=cuelinks&utm_medium=affiliate&utm_campaign=summersale&utm_term=network&utm_content=20250421cl5d8qj3az33"
+        },
+        {
+          "platform": "Vijay Sales",
+          "price": 41990,
+          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Vijaysales.com/Seller-Logo.png",
+          "url": "https://www.vijaysales.com/p/204295/daikin-1-8-ton-1-star-split-air-conditioner-fte60uv-1s"
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "category": "electronics",
+      "subCategory": "ac",
+      "name": "Daikin 0.8 Ton 3 Star Split Ac With Pm 2.5 Filter - White Ftl28Uv16W1 Rl28Uv16W1 Ftl28Uv16W1 Copper Condenser ",
+      "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1741247288/Croma%20Assets/Large%20Appliances/Air%20Conditioner/Images/248199_0_bpkffi.png?tr=w-640",
+      "prices": [
+        {
+          "platform": "Amazon",
+          "price": 26490,
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
+          "url": "https://www.amazon.in/Daikin-Fixed-Copper-Filter-FTL28U/dp/B09R4SF5SP/?creative=165953&creativeASIN=&tag=cuelinkss23220-21&ascsubtag=20250421clpvorqimuuthttps://www.amazon.in/dp/B0CXYZ5678"
+        },
+        {
+          "platform": "Flipkart",
+          "price": 26490,
+          "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
+          "url": "https://www.flipkart.com/daikin-2023-model-0-8-ton-3-star-split-ac-pm-2-5-filter-white/p/itm66b9df7fbf4ad?pid=ACNGB2YAT4K4DQRH&lid=LSTACNGB2YAT4K4DQRHU2SPEX&affid=salescueli&affExtParam1=20250421clestesy3252&affExtParam2=21928https://www.flipkart.com/p/itmdef5678"
+        },
+        {
+          "platform": "Croma",
+          "price": 26490,
+          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Croma.com/Seller-Logo.png",
+          "url": "https://www.croma.com/daikin-standard-series-0-8-ton-3-star-split-ac-copper-condenser-pm-2-5-filter-ftl28u-/p/248199?utm_source=cuelinks&utm_medium=affiliate&utm_campaign=summersale&utm_term=network&utm_content=20250421clou1xkxq9d7"
+        },
+        {
+          "platform": "Vijay Sales",
+          "price": 26490,
+          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Vijaysales.com/Seller-Logo.png",
+          "url": "https://www.vijaysales.com/p/P203749/203749/daikin-0-8-ton-3-star-split-air-conditioner-ftl28uv"
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "category": "electronics",
+      "subCategory": "ac",
+      "name": "Voltas 185V Vectra Pearl Marvel 1.5 Ton 5 Star Inverter Split Ac Copper Condenser Anti-Dust Filter",
+      "image": "https://m.media-amazon.com/images/I/51ayyOq4zeL._SX679_.jpg",
+      "prices": [
+        {
+          "platform": "Amazon",
+          "price": 42890,
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
+          "url": "https://www.amazon.in/Voltas-Adjustable-185V-Vectra-Elegant/dp/B0BQR2T346/?creative=165953&creativeASIN=&tag=cuelinkss23220-21&ascsubtag=20250421clpeq3n8agj6"
+        },
+        {
+          "platform": "Flipkart",
+          "price": 40979,
+          "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
+          "url": "https://www.flipkart.com/voltas-2023-model-1-5-ton-5-star-split-inverter-ac-white/p/itm8bfe5c0f9fc6a?pid=ACNGHUNGGBQEGGXU&lid=LSTACNGHUNGGBQEGGXUXELUJN&affid=salescueli&affExtParam1=20250421cl24q7jwygs9&affExtParam2=21928"
+        },
+        {
+          "platform": "Croma",
+          "price": 41990,
+          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Croma.com/Seller-Logo.png",
+          "url": "https://www.croma.com/voltas-185v-vectra-elite-4-in-1-convertible-1-5-ton-5-star-inverter-split-ac-with-anti-dust-filter-copper-condenser-4503453-/p/268573?utm_source=cuelinks&utm_medium=affiliate&utm_campaign=summersale&utm_term=network&utm_content=20250421clmrq7u1mntj"
+        },
+        {
+          "platform": "Vijay Sales",
+          "price": 40990,
+          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Vijaysales.com/Seller-Logo.png",
+          "url": "https://www.vijaysales.com/p/214382/voltas-1-5-ton-5-star-inverter-split-air-conditioner-185v-vectra-elegant-with-100-copper-high-ambient-cooling-set185vvectraelegant15tspl"
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "category": "electronics",
+      "subCategory": "ac",
+      "name": "Voltas 2 Ton, 3 Star, Inverter Split AC (Copper, 4-in-1 Adjustable Mode, Anti-dust Filter, 2024 Model, 243V Vectra Elite, White)",
+      "image": "https://m.media-amazon.com/images/I/51QCZGLeyrL._SX679_.jpg",
+      "prices": [
+        {
+          "platform": "Amazon",
+          "price": 43490,
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
+          "url": "https://www.amazon.in/Voltas-Adjustable-Inverter-Copper-VECTRA/dp/B0BBFTT3YL/?creative=165953&creativeASIN=&tag=cuelinkss23220-21&ascsubtag=20250421clvagmmak8hl&th=1"
+        },
+        {
+          "platform": "Flipkart",
+          "price": 45000,
+          "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
+          "url": "https://www.flipkart.com/voltas-2-ton-3-star-split-inverter-ac-white/p/itm8bfe5c0f9fc6a?pid=ACNGHUNGFVEHTT6J&lid=LSTACNGHUNGFVEHTT6JKFVY1Z&affid=salescueli&affExtParam1=20250421clriq5aywjop&affExtParam2=21928"
+        },
+        {
+          "platform": "Vijay Sales",
+          "price": 46990,
+          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Vijaysales.com/Seller-Logo.png",
+          "url": "https://www.vijaysales.com/p/P213525/207129/voltas-2-ton-3-star-split-inverter-air-conditioner-243vvectraelite2tspl"
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "category": "electronics",
+      "subCategory": "ac",
+      "name": "Voltas 243 Vectra Plus 2 Ton 3 Star Split Ac 2022 Model Copper Condenser Anti-Dust Filter",
+      "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1681448226/Croma%20Assets/Large%20Appliances/Air%20Conditioner/Images/263346_0_lvsp51.png?tr=w-640",
+      "prices": [
+        {
+          "platform": "Amazon",
+          "price": 49990,
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
+          "url": "https://www.amazon.in/Voltas-Anti-dust-243-Vectra-Plus/dp/B0BQR3D9V6/?creative=165953&creativeASIN=&tag=cuelinkss23220-21&ascsubtag=20250421clsjwvyrrs16"
+        },
+        {
+          "platform": "Flipkart",
+          "price": 48799,
+          "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
+          "url": "https://www.flipkart.com/voltas-2023-model-2-ton-3-star-split-ac-white/p/itm0a81220530f84?pid=ACNGHUNGB3G9UHYB&lid=LSTACNGHUNGB3G9UHYBXC1YGI&affid=salescueli&affExtParam1=20250421clfzvz2wd2xy&affExtParam2=21928"
+        },
+        {
+          "platform": "Croma",
+          "price": 52490,
+          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Croma.com/Seller-Logo.png",
+          "url": "https://www.croma.com/voltas-vectra-2-ton-3-star-split-ac-copper-condenser-anti-dust-filter-243-vectra-plus-/p/263346?utm_source=cuelinks&utm_medium=affiliate&utm_campaign=summersale&utm_term=network&utm_content=20250421clxg4lrxnk2p"
+        },
+        {
+          "platform": "Vijay Sales",
+          "price": 46990,
+          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Vijaysales.com/Seller-Logo.png",
+          "url": "https://www.vijaysales.com/p/P213519/213470/voltas-2-ton-3-star-split-air-conditioner-with-active-dehumidifier-anti-microbial-air-filtration-dual-display-243vectraplus2tspl"
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "category": "electronics",
+      "subCategory": "ac",
+      "name": "Voltas 1.5 Ton 3 Star Hot And Cold Inverter Split Ac Copper 4-In-1 Adjustable Cooling Anti-Dust Filter 2023 Model 183Vh Vectra Platina White - Best Value",
+      "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1702363816/Croma%20Assets/Large%20Appliances/Air%20Conditioner/Images/303247_kdznae.png?tr=w-640",
+      "prices": [
+        {
+          "platform": "Amazon",
+          "price": 41990,
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
+          "url": "https://www.amazon.in/Voltas-Adjustable-183VH-VECTRA-PLATINA/dp/B0C3BLXFXK/?creative=165953&creativeASIN=&tag=cuelinkss23220-21&ascsubtag=20250421clude7yxx9te"
+        },
+        {
+          "platform": "Flipkart",
+          "price": 41970,
+          "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
+          "url": "https://www.flipkart.com/voltas-1-5-ton-3-star-split-inverter-ac-wi-fi-connect-white/p/itm5cdb70e408b55?pid=ACNGYYVUNYBBGB3E&lid=LSTACNGYYVUNYBBGB3EK5TOMY&affid=salescueli&affExtParam1=20250421cl4p11x9v8ux&affExtParam2=21928"
+        },
+        {
+          "platform": "Croma",
+          "price": 41490,
+          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Croma.com/Seller-Logo.png",
+          "url": "https://www.croma.com/voltas-sac-183vh-vectra-platina-convertible-1-5-ton-3-star-inverter-split-ac-with-self-diagnosis-copper-condenser-/p/303247"
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "category": "electronics",
+      "subCategory": "ac",
+      "name": "Lg 2025 Mode Ai Convertible 6-In-1 1.5 Ton 4 Star Split Ai Dual Inverter With Faster Cooling And Energy Saving, 4 Way Air Swing, Viraat Mode And Diet Plus Mode Ac - White (Us-Q19Jnye, Copper Condenser)",
+      "image": "https://d1xbedroeo1z0l.cloudfront.net/fit-in/1100x1100/Croma.com/XRVOS_crm_crm313463_1100x1100.png",
+      "prices": [
+        {
+          "platform": "Amazon",
+          "price": 42990,
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
+          "url": "https://www.amazon.in/LG-Convertible-Anti-Virus-Protection-US-Q19JNYE/dp/B0DQQ3PZVW/?creative=165953&creativeASIN=&tag=cuelinkss23220-21&ascsubtag=20250421clv1vi39bdds&th=1"
+        },
+        {
+          "platform": "Flipkart",
+          "price": 42990,
+          "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
+          "url": "https://www.flipkart.com/lg-2025-mode-ai-convertible-6-in-1-1-5-ton-4-star-split-dual-inverter-faster-cooling-energy-saving-way-air-swing-viraat-diet-plus-ac-white/p/itm5d38061f6a915?pid=ACNH7SB8TXZMYXPE&lid=LSTACNH7SB8TXZMYXPEU0VHMQ&affExtParam1=W_19656_1745226613-&affExtParam2=flip-"
+        },
+        {
+          "platform": "Croma",
+          "price": 42990,
+          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Croma.com/Seller-Logo.png",
+          "url": "https://www.croma.com/lg-6-in-1-convertible-1-5-ton-4-star-dual-inverter-split-ac-with-6-step-fan-speed-2025-model-copper-condenser-us-q19jnye-amlg-/p/313463?utm_source=cuelinks&utm_medium=affiliate&utm_campaign=summersale&utm_term=network&utm_content=20250421cljq3j9ztaob"
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "category": "electronics",
+      "subCategory": "ac",
+      "name": "Lg 2025 Model Ai Convertible 6-In-1 Split 2 Ton 3 Star Split Ai Dual Inverter With Faster Cooling And Energy Saving, 4 Way Air Swing, Viraat Mode And Diet Mode Plus Ac - White (Us-Q24Enxe, Copper Condenser) ",
+      "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1739776890/313101_0_hxqt7b.png?tr=w-640",
+      "prices": [
+        {
+          "platform": "Amazon",
+          "price": 55490,
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png",
+          "url": "https://www.amazon.in/LG-Convertible-Anti-Virus-Protection-US-Q24ENXE/dp/B0DRG85QHB/?creative=165953&creativeASIN=&tag=cuelinkss23220-21&ascsubtag=20250421cln4wdv5kst6&th=1"
+        },
+        {
+          "platform": "Flipkart",
+          "price": 55490,
+          "logo": "https://cdn.freebiesupply.com/logos/large/2x/flipkart-logo-png-transparent.png",
+          "url": "https://www.amazon.in/LG-Convertible-Anti-Virus-Protection-US-Q24ENXE/dp/B0DRG85QHB/?creative=165953&creativeASIN=&tag=cuelinkss23220-21&ascsubtag=20250421cln4wdv5kst6&th=1"
+        },
+        {
+          "platform": "Croma",
+          "price": 55490,
+          "logo": "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Croma.com/Seller-Logo.png",
+          "url": "https://www.croma.com/lg-6-in-1-convertible-2-ton-3-star-dual-inverter-split-ac-with-4-way-swing-2025-model-copper-condenser-us-q24enxe-anlg-/p/313101?utm_source=cuelinks&utm_medium=affiliate&utm_campaign=summersale&utm_term=network&utm_content=20250421cl1f4h4k8jlz"
         }
       ]
     }
