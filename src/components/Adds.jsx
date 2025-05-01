@@ -34,7 +34,7 @@ const Adds = () => {
     {
       name: "Croma",
       src: "https://d372i0x0rvq68a.cloudfront.net/seller_logos/Croma.com/Seller-Logo.png",
-    },
+    } 
   ];
 
   return (
@@ -60,7 +60,7 @@ const Adds = () => {
                   height: "40px",
                   objectFit: "contain",
                 }}
-              />
+              /> 
             ))}
           </Marquee>
         </div>

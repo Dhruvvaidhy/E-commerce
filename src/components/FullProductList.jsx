@@ -3,22 +3,56 @@ import { useParams, Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleWishlist } from "../redux/wishlistSlice";
 import { FaHeart, FaRegHeart, FaArrowLeft } from "react-icons/fa";
-import { auth } from "../firebase";
+import { auth, db } from "../firebase";
+import { collection, getDocs } from "firebase/firestore";
 import toast from "react-hot-toast";
 
 const FullProductList = () => {
   const { category } = useParams();
   const [products, setProducts] = useState([]);
+  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(true);
   const wishlist = useSelector((state) => state.wishlist);
   const dispatch = useDispatch();
   const user = auth.currentUser;
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch(`http://localhost:5000/${category}`)
-      .then((res) => res.json())
-      .then((data) => setProducts(data))
-      .catch((error) => console.error("Error fetching data:", error));
+    const fetchProducts = async () => {
+      setLoading(true);
+      try {
+        const querySnapshot = await getDocs(collection(db, category));
+        const firestoreData = querySnapshot.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data(),
+        }));
+
+        if (firestoreData.length > 0) {
+          setProducts(firestoreData);
+        } else {
+          console.warn("No Firestore data found. Fetching from db.json...");
+          const response = await fetch("/db.json");
+          const json = await response.json();
+
+          if (json[category]) {
+            setProducts(json[category]);
+          } else {
+            setProducts([]);
+            console.warn(`No data for category "${category}" found in db.json.`);
+          }
+        }
+
+        setError(null);
+      } catch (err) {
+        console.error("Error:", err);
+        setError("Failed to load products.");
+        setProducts([]);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    if (category) fetchProducts();
   }, [category]);
 
   const handleWishlistToggle = (product) => {
@@ -31,7 +65,6 @@ const FullProductList = () => {
 
   return (
     <div className="pt-24 px-4 sm:px-6 md:px-8 pb-10 bg-gray-50 min-h-screen">
-      {/* <h2 className="text-2xl font-bold mb-6 capitalize text-center">{category} - All Products</h2> */}
       <div className="relative flex items-center justify-center mb-8">
         <button
           onClick={() => navigate(-1)}
@@ -45,23 +78,23 @@ const FullProductList = () => {
         </h2>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        {products.length > 0 ? (
-          products.map((product) => {
-            const isWishlisted = wishlist.some(
-              (item) => item.id === product.id
-            );
-
-            const sortedPrices = [...product.prices].sort(
-              (a, b) => a.price - b.price
-            );
+      {loading ? (
+        <p className="text-center text-gray-500">Loading products...</p>
+      ) : error ? (
+        <p className="text-center text-red-500">{error}</p>
+      ) : products.length > 0 ? (
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          {products.map((product) => {
+            const isWishlisted = wishlist.some((item) => item.id === product.id);
+            const sortedPrices = product.prices
+              ? [...product.prices].sort((a, b) => a.price - b.price)
+              : [];
 
             return (
               <div
                 key={product.id}
                 className="relative border rounded-xl shadow-md p-4 bg-white flex flex-col items-center h-[400px]"
               >
-                {/* Wishlist Button */}
                 <button
                   onClick={() => handleWishlistToggle(product)}
                   className="absolute top-3 right-3 text-red-500 text-xl z-10"
@@ -69,14 +102,12 @@ const FullProductList = () => {
                   {isWishlisted ? <FaHeart /> : <FaRegHeart />}
                 </button>
 
-                {/* Brand */}
                 {product.brand && (
                   <h3 className="text-sm font-bold text-blue-700 uppercase">
                     {product.brand}
                   </h3>
                 )}
 
-                {/* Image */}
                 <div className="flex justify-center items-center h-[150px] w-full mt-1">
                   <img
                     src={product.image}
@@ -85,12 +116,10 @@ const FullProductList = () => {
                   />
                 </div>
 
-                {/* Name */}
                 <h3 className="text-sm font-semibold text-center mt-2 line-clamp-2 min-h-[40px] px-2">
                   {product.name}
                 </h3>
 
-                {/* Prices */}
                 <div className="mt-2 w-full flex flex-col gap-1">
                   {sortedPrices.slice(0, 3).map((p, index) => (
                     <div
@@ -109,7 +138,6 @@ const FullProductList = () => {
                   ))}
                 </div>
 
-                {/* Button */}
                 <Link
                   to={`/product/${category}/${product.id}`}
                   className="w-full"
@@ -120,18 +148,309 @@ const FullProductList = () => {
                 </Link>
               </div>
             );
-          })
-        ) : (
-          <p className="col-span-full text-center text-gray-500">
-            No products found.
-          </p>
-        )}
-      </div>
+          })}
+        </div>
+      ) : (
+        <p className="text-center text-gray-500">No products found.</p>
+      )}
     </div>
   );
 };
 
 export default FullProductList;
+
+
+// import React, { useEffect, useState } from "react";
+// import { useParams, Link, useNavigate } from "react-router-dom";
+// import { useDispatch, useSelector } from "react-redux";
+// import { toggleWishlist } from "../redux/wishlistSlice";
+// import { FaHeart, FaRegHeart, FaArrowLeft } from "react-icons/fa";
+// import { auth, db } from "../firebase";
+// import { collection, getDocs } from "firebase/firestore";
+// import toast from "react-hot-toast";
+
+// const FullProductList = () => {
+//   const { category } = useParams();
+//   const [products, setProducts] = useState([]);
+//   const [error, setError] = useState(null);
+//   const wishlist = useSelector((state) => state.wishlist);
+//   const dispatch = useDispatch();
+//   const user = auth.currentUser;
+//   const navigate = useNavigate();
+
+//   useEffect(() => {
+//     const fetchProducts = async () => {
+//       try {
+//         const querySnapshot = await getDocs(collection(db, category));
+//         const firestoreData = querySnapshot.docs.map((doc) => ({
+//           id: doc.id,
+//           ...doc.data(),
+//         }));
+
+//         if (firestoreData.length > 0) {
+//           setProducts(firestoreData);
+//         } else {
+//           console.warn("No Firestore data found. Fetching from db.json...");
+//           const response = await fetch("/db.json");
+//           const json = await response.json();
+
+//           if (json[category]) {
+//             setProducts(json[category]);
+//           } else {
+//             setProducts([]);
+//             console.warn(`No data for category "${category}" found in db.json.`);
+//           }
+//         }
+
+//         setError(null);
+//       } catch (err) {
+//         console.error("Error:", err);
+//         setError("Failed to load products.");
+//         setProducts([]);
+//       }
+//     };
+
+//     if (category) fetchProducts();
+//   }, [category]);
+
+//   const handleWishlistToggle = (product) => {
+//     if (!user) {
+//       toast.error("Please login to use wishlist");
+//       return;
+//     }
+//     dispatch(toggleWishlist({ product, uid: user.uid }));
+//   };
+
+//   return (
+//     <div className="pt-24 px-4 sm:px-6 md:px-8 pb-10 bg-gray-50 min-h-screen">
+//       <div className="relative flex items-center justify-center mb-8">
+//         <button
+//           onClick={() => navigate(-1)}
+//           className="absolute left-0 text-gray-600 hover:text-black text-xl p-2 rounded-full border border-gray-300 hover:bg-gray-100 transition"
+//           title="Go Back"
+//         >
+//           <FaArrowLeft />
+//         </button>
+//         <h2 className="text-2xl font-bold capitalize">
+//           {category} - All Products
+//         </h2>
+//       </div>
+
+//       {error ? (
+//         <p className="text-center text-red-500">{error}</p>
+//       ) : products.length > 0 ? (
+//         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+//           {products.map((product) => {
+//             const isWishlisted = wishlist.some((item) => item.id === product.id);
+//             const sortedPrices = product.prices
+//               ? [...product.prices].sort((a, b) => a.price - b.price)
+//               : [];
+
+//             return (
+//               <div
+//                 key={product.id}
+//                 className="relative border rounded-xl shadow-md p-4 bg-white flex flex-col items-center h-[400px]"
+//               >
+//                 <button
+//                   onClick={() => handleWishlistToggle(product)}
+//                   className="absolute top-3 right-3 text-red-500 text-xl z-10"
+//                 >
+//                   {isWishlisted ? <FaHeart /> : <FaRegHeart />}
+//                 </button>
+
+//                 {product.brand && (
+//                   <h3 className="text-sm font-bold text-blue-700 uppercase">
+//                     {product.brand}
+//                   </h3>
+//                 )}
+
+//                 <div className="flex justify-center items-center h-[150px] w-full mt-1">
+//                   <img
+//                     src={product.image}
+//                     alt={product.name}
+//                     className="max-h-full max-w-full object-contain"
+//                   />
+//                 </div>
+
+//                 <h3 className="text-sm font-semibold text-center mt-2 line-clamp-2 min-h-[40px] px-2">
+//                   {product.name}
+//                 </h3>
+
+//                 <div className="mt-2 w-full flex flex-col gap-1">
+//                   {sortedPrices.slice(0, 3).map((p, index) => (
+//                     <div
+//                       key={index}
+//                       className="flex items-center justify-between bg-gray-50 px-3 py-1 rounded-md"
+//                     >
+//                       <img
+//                         src={p.logo}
+//                         alt={p.store}
+//                         className="w-10 h-6 object-contain"
+//                       />
+//                       <p className="text-sm font-bold text-green-600">
+//                         ₹{p.price}
+//                       </p>
+//                     </div>
+//                   ))}
+//                 </div>
+
+//                 <Link
+//                   to={`/product/${category}/${product.id}`}
+//                   className="w-full"
+//                 >
+//                   <button className="mt-3 w-full text-sm text-white bg-blue-600 px-4 py-2 rounded-md hover:bg-blue-700">
+//                     View Prices
+//                   </button>
+//                 </Link>
+//               </div>
+//             );
+//           })}
+//         </div>
+//       ) : (
+//         <p className="text-center text-gray-500">No products found.</p>
+//       )}
+//     </div>
+//   );
+// };
+
+// export default FullProductList;
+
+
+
+// import React, { useEffect, useState } from "react";
+// import { useParams, Link, useNavigate } from "react-router-dom";
+// import { useDispatch, useSelector } from "react-redux";
+// import { toggleWishlist } from "../redux/wishlistSlice";
+// import { FaHeart, FaRegHeart, FaArrowLeft } from "react-icons/fa";
+// import { auth } from "../firebase";
+// import toast from "react-hot-toast";
+
+// const FullProductList = () => {
+//   const { category } = useParams();
+//   const [products, setProducts] = useState([]);
+//   const wishlist = useSelector((state) => state.wishlist);
+//   const dispatch = useDispatch();
+//   const user = auth.currentUser;
+//   const navigate = useNavigate();
+
+//   useEffect(() => {
+//     fetch(`http://localhost:5000/${category}`)
+//       .then((res) => res.json())
+//       .then((data) => setProducts(data))
+//       .catch((error) => console.error("Error fetching data:", error));
+//   }, [category]);
+
+//   const handleWishlistToggle = (product) => {
+//     if (!user) {
+//       toast.error("Please login to use wishlist");
+//       return;
+//     }
+//     dispatch(toggleWishlist({ product, uid: user.uid }));
+//   };
+
+//   return (
+//     <div className="pt-24 px-4 sm:px-6 md:px-8 pb-10 bg-gray-50 min-h-screen">
+//       {/* <h2 className="text-2xl font-bold mb-6 capitalize text-center">{category} - All Products</h2> */}
+//       <div className="relative flex items-center justify-center mb-8">
+//         <button
+//           onClick={() => navigate(-1)}
+//           className="absolute left-0 text-gray-600 hover:text-black text-xl p-2 rounded-full border border-gray-300 hover:bg-gray-100 transition"
+//           title="Go Back"
+//         >
+//           <FaArrowLeft />
+//         </button>
+//         <h2 className="text-2xl font-bold capitalize">
+//           {category} - All Products
+//         </h2>
+//       </div>
+
+//       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+//         {products.length > 0 ? (
+//           products.map((product) => {
+//             const isWishlisted = wishlist.some(
+//               (item) => item.id === product.id
+//             );
+
+//             const sortedPrices = [...product.prices].sort(
+//               (a, b) => a.price - b.price
+//             );
+
+//             return (
+//               <div
+//                 key={product.id}
+//                 className="relative border rounded-xl shadow-md p-4 bg-white flex flex-col items-center h-[400px]"
+//               >
+//                 {/* Wishlist Button */}
+//                 <button
+//                   onClick={() => handleWishlistToggle(product)}
+//                   className="absolute top-3 right-3 text-red-500 text-xl z-10"
+//                 >
+//                   {isWishlisted ? <FaHeart /> : <FaRegHeart />}
+//                 </button>
+
+//                 {/* Brand */}
+//                 {product.brand && (
+//                   <h3 className="text-sm font-bold text-blue-700 uppercase">
+//                     {product.brand}
+//                   </h3>
+//                 )}
+
+//                 {/* Image */}
+//                 <div className="flex justify-center items-center h-[150px] w-full mt-1">
+//                   <img
+//                     src={product.image}
+//                     alt={product.name}
+//                     className="max-h-full max-w-full object-contain"
+//                   />
+//                 </div>
+
+//                 {/* Name */}
+//                 <h3 className="text-sm font-semibold text-center mt-2 line-clamp-2 min-h-[40px] px-2">
+//                   {product.name}
+//                 </h3>
+
+//                 {/* Prices */}
+//                 <div className="mt-2 w-full flex flex-col gap-1">
+//                   {sortedPrices.slice(0, 3).map((p, index) => (
+//                     <div
+//                       key={index}
+//                       className="flex items-center justify-between bg-gray-50 px-3 py-1 rounded-md"
+//                     >
+//                       <img
+//                         src={p.logo}
+//                         alt={p.store}
+//                         className="w-10 h-6 object-contain"
+//                       />
+//                       <p className="text-sm font-bold text-green-600">
+//                         ₹{p.price}
+//                       </p>
+//                     </div>
+//                   ))}
+//                 </div>
+
+//                 {/* Button */}
+//                 <Link
+//                   to={`/product/${category}/${product.id}`}
+//                   className="w-full"
+//                 >
+//                   <button className="mt-3 w-full text-sm text-white bg-blue-600 px-4 py-2 rounded-md hover:bg-blue-700">
+//                     View Prices
+//                   </button>
+//                 </Link>
+//               </div>
+//             );
+//           })
+//         ) : (
+//           <p className="col-span-full text-center text-gray-500">
+//             No products found.
+//           </p>
+//         )}
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default FullProductList;
 
 // import React, { useEffect, useState } from "react";
 // import { useParams, Link } from "react-router-dom";
